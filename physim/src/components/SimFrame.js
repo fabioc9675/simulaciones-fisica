@@ -105,7 +105,7 @@ function SimFrame(props) {
 
   function backOnClick() {
     // come back to the main view
-    history.push("/simulaciones-fisica");
+    history.push("/simulaciones-fisica/");
   }
 
   return (
