@@ -1,6 +1,6 @@
 {
   "simEnTr": {
-    "path": "/EnergyTransfer",
+    "path": "/simulaciones-fisica/EnergyTransfer",
     "title": "Colisión de partículas en 2D",
     "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_1/EnergyTransfer/sketch.js",
     "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/EnergyTransfer/phy.pdf&embedded=true",
@@ -15,7 +15,7 @@
     "icon": "resources/logos/Sim_ET_400x400.jpg"
   },
   "simIdGa": {
-    "path": "/IdealGas",
+    "path": "/simulaciones-fisica/IdealGas",
     "title": "Gas ideal",
     "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_1/IdealGas/sketch.js",
     "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/IdealGas/phy.pdf&embedded=true",
@@ -30,7 +30,7 @@
     "icon": "resources/logos/Sim_IG_400x400.png"
   },
   "simLoVo": {
-    "path": "/LotkaVolterra",
+    "path": "/simulaciones-fisica/LotkaVolterra",
     "title": "Ecuaciones de Lotka-Volterra",
     "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_1/LotkaVolterra/sketch.js",
     "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/LotkaVolterra/phy.pdf&embedded=true",
@@ -41,7 +41,7 @@
     "icon": "resources/logos/Sim_LV_400x400.jpg"
   },
   "simSiPe": {
-    "path": "/SimplePendulum",
+    "path": "/simulaciones-fisica/SimplePendulum",
     "title": "Péndulo Simple",
     "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_1/SimplePendulum/Sketch.js",
     "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/SimplePendulum/phy.pdf&embedded=true",
@@ -56,7 +56,7 @@
     "icon": "resources/logos/Sim_SP_400x400.jpg"
   },
   "simEnCo": {
-    "path": "/EnergyConservation",
+    "path": "/simulaciones-fisica/EnergyConservation",
     "title": "Conservación de la energía",
     "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_1/EnergyConservation/sketch.js",
     "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/EnergyConservation/phy.pdf&embedded=true",
@@ -71,7 +71,7 @@
     "icon": "resources/logos/Sim_EC_400x400.png"
   },
   "simCoOs": {
-    "path": "/CoupledOscillator",
+    "path": "/simulaciones-fisica/CoupledOscillator",
     "title": "Osciladores acoplados no amortiguados",
     "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_1/CoupledOscillator/sketch.js",
     "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/CoupledOscillator/phy.pdf&embedded=true",
@@ -86,7 +86,7 @@
     "icon": "resources/logos/Sim_CO_400x400.jpg"
   },
   "simSuRe": {
-    "path": "/SurfaceReflection",
+    "path": "/simulaciones-fisica/SurfaceReflection",
     "title": "Refracción, reflexión y transmisión",
     "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_1/SurfaceReflection/sketch.js",
     "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/SurfaceReflection/phy.pdf&embedded=true",
@@ -97,7 +97,7 @@
     "icon": "resources/logos/Sim_SR_400x400.jpg"
   },
   "simBlBo": {
-    "path": "/BlackBody",
+    "path": "/simulaciones-fisica/BlackBody",
     "title": "Radiación de cuerpo negro",
     "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_1/BlackBody/sketch.js",
     "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/BlackBody/phy.pdf&embedded=true",
@@ -112,7 +112,7 @@
     "icon": "resources/logos/Sim_BB_400x400.png"
   },
   "simDaOs": {
-    "path": "/DampedOscillator",
+    "path": "/simulaciones-fisica/DampedOscillator",
     "title": "Oscilador amortiguado",
     "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_2/DampedOscillator/sketch.js",
     "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_2/DampedOscillator/phy.pdf&embedded=true",
@@ -123,7 +123,7 @@
     "icon": "resources/logos/Sim_DO_400x400.jpg"
   },
   "simDoPe": {
-    "path": "/DoublePendulum",
+    "path": "/simulaciones-fisica/DoublePendulum",
     "title": "Péndulo doble",
     "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_2/DoublePendulum/sketch.js",
     "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_2/DoublePendulum/phy.pdf&embedded=true",
@@ -134,7 +134,7 @@
     "icon": "resources/logos/Sim_DP_400x400.jpg"
   },
   "simMeAx": {
-    "path": "/MeanAxis",
+    "path": "/simulaciones-fisica/MeanAxis",
     "title": "Teorema del eje intermedio",
     "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2022_1/MeanAxis/sketch.js",
     "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2022_1/MeanAxis/phy.pdf&embedded=true",
@@ -149,7 +149,7 @@
     "icon": "resources/logos/Sim_MA_400x400.jpg"
   },
   "simMaSp": {
-    "path": "/MassSpectro",
+    "path": "/simulaciones-fisica/MassSpectro",
     "title": "Espectrómetro de masas",
     "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2022_1/MassSpectro/sketch.js",
     "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2022_1/MassSpectro/phy.pdf&embedded=true",
@@ -164,7 +164,7 @@
     "icon": "resources/logos/Sim_MS_400x400.jpg"
   },
   "simIsMo": {
-    "path": "/IsingModel",
+    "path": "/simulaciones-fisica/IsingModel",
     "title": "Materiales en el Modelo Ising",
     "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2022_1/IsingModel/sketch.js",
     "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2022_1/IsingModel/phy.pdf&embedded=true",
@@ -175,7 +175,7 @@
     "icon": "resources/logos/Sim_IM_400x400.png"
   },
   "simFiCh": {
-    "path": "/FieldCharge",
+    "path": "/simulaciones-fisica/FieldCharge",
     "title": "Partícula en campo EM",
     "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2022_1/FieldCharge/sketch.js",
     "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2022_1/FieldCharge/phy.pdf&embedded=true",
@@ -190,7 +190,7 @@
     "icon": "resources/logos/Sim_FC_400x400.jpg"
   },
   "simBoDr": {
-    "path": "/BodyDrop",
+    "path": "/simulaciones-fisica/BodyDrop",
     "title": "Cuerpos rígidos rodando",
     "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2022_1/BodyDrop/sketch.js",
     "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2022_1/BodyDrop/phy.pdf&embedded=true",
@@ -201,7 +201,7 @@
     "icon": "resources/logos/Sim_BD_400x400.jpg"
   },
   "simDoOs20231": {
-    "path": "/DoubleOscillator20231",
+    "path": "/simulaciones-fisica/DoubleOscillator20231",
     "title": "Caos en péndulo doble",
     "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_1/DoubleOscillator/sketch.js",
     "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/DoubleOscillator/phy.pdf&embedded=true",
@@ -212,7 +212,7 @@
     "icon": "resources/logos/Sim_DO20231_400x400.png"
   },
   "simFlMo20231": {
-    "path": "/FluidMovement20231",
+    "path": "/simulaciones-fisica/FluidMovement20231",
     "title": "Movimiento de cuerpos en fluidos",
     "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_1/FluidsMovement/sketch.js",
     "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/FluidsMovement/phy.pdf&embedded=true",
@@ -223,7 +223,7 @@
     "icon": "resources/logos/Sim_FM20231_400x400.png"
   },
   "simPaLa20231": {
-    "path": "/ParabolicLaunch20231",
+    "path": "/simulaciones-fisica/ParabolicLaunch20231",
     "title": "Proyectil en el sistema solar",
     "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_1/ParabolicLaunch/sketch.js",
     "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/ParabolicLaunch/phy.pdf&embedded=true",
@@ -238,7 +238,7 @@
     "icon": "resources/logos/Sim_PL20231_400x400.jpg"
   },
   "simRiPe20231": {
-    "path": "/RigidPendulum20231",
+    "path": "/simulaciones-fisica/RigidPendulum20231",
     "title": "Péndulo doble rígido",
     "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_1/RigidPendulum/sketch.js",
     "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/RigidPendulum/phy.pdf&embedded=true",
@@ -249,7 +249,7 @@
     "icon": "resources/logos/Sim_RP20231_400x400.png"
   },
   "simIsMa20231": {
-    "path": "/IssingMagnetic20231",
+    "path": "/simulaciones-fisica/IssingMagnetic20231",
     "title": "Modelo de ising magnético",
     "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_1/IssingMagnetic/sketch.js",
     "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/IssingMagnetic/phy.pdf&embedded=true",
@@ -268,7 +268,7 @@
     "icon": "resources/logos/Sim_IM20231_400x400.jpg"
   },
   "simHyAt20231": {
-    "path": "/HydrogenAtom20231",
+    "path": "/simulaciones-fisica/HydrogenAtom20231",
     "title": "Orbitales del átomo de Hidrógeno",
     "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_1/HydrogenAtom/sketch.js",
     "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/HydrogenAtom/phy.pdf&embedded=true",
@@ -288,7 +288,7 @@
   },
 
   "sim01": {
-    "path": "/simul_01",
+    "path": "/simulaciones-fisica/simul_01",
     "title": "Gravitación universal",
     "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/examples/SolarSystem/sketch.js",
     "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/examples/SolarSystem/Theory.pdf&embedded=true",
@@ -299,7 +299,7 @@
     "icon": "resources/logos/Sim_01_400x400.jpg"
   },
   "sim02": {
-    "path": "/simul_02",
+    "path": "/simulaciones-fisica/simul_02",
     "title": "Colisión de partículas",
     "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/examples/ParticleCollision/sketch.js",
     "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/examples/SolarSystem/Theory.pdf&embedded=true",
@@ -310,7 +310,7 @@
     "icon": "resources/logos/Sim_02_400x400.jpg"
   },
   "sim03": {
-    "path": "/simul_03",
+    "path": "/simulaciones-fisica/simul_03",
     "title": "Figuras de lissajous",
     "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/examples/Controls/sketch.js",
     "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/examples/SolarSystem/Theory.pdf&embedded=true",

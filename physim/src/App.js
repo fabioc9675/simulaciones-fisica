@@ -17,8 +17,8 @@ export default function App() {
     <div>
       <Router>
         <Switch>
-          <Redirect exact from="/" to="/main" />
-          <Route exact path="/main" component={MainView} />
+          <Redirect exact from="/" to="/simulaciones-fisica" />
+          <Route exact path="/simulaciones-fisica" component={MainView} />
           <Route
             forceRefresh={true}
             exact
