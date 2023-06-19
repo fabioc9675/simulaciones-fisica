@@ -89,6 +89,7 @@ function SimFrame(props) {
           <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script> -->
           <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.5.0/math.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/matter-js@0.18.0/build/matter.min.js"></script>
           <link rel="stylesheet" type="text/css" href="style.css">
           <!-- <script src="https://raw.githubusercontent.com/jagracar/grafica.js/master/releases/grafica.min.js"></script> -->
           <script>${galib}</script>
