@@ -16,12 +16,24 @@
   padding: 1rem;
   font-size: 1.2rem;
   overflow: auto;
-  height: 75vh;
+  height: 705vh;
   white-space: pre-wrap;
 }
 
 .MainInfo-Logo {
   align-self: center;
   justify-self: left;
-  padding: 5vh;
+  padding: 2vh;
+}
+
+.MainInfo-Repo {
+  align-self: center;
+  justify-self: center;
+  padding: 2vh;
+}
+
+.MainInfo-Icon {
+  color: white;
+  padding-left: 1vw;
+  padding-right: 1vw;
 }
