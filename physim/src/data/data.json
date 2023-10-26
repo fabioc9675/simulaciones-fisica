@@ -286,6 +286,25 @@
     "abst": "Presentación de una visualización espacial de las soluciones de la ecuación de Schrödinger aplicada al átomo de hidrógeno.",
     "icon": "resources/logos/Sim_HA20231_400x400.png"
   },
+  "simQuAr20232": {
+    "path": "/simulaciones-fisica/QuantumArmonic20232",
+    "title": "Oscilador Armónico Cuántico",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_2/QuantumArmonic/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_2/QuantumArmonic/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_2/QuantumArmonic/act.pdf&embedded=true",
+    "author": [
+      "Jonathan Posada Loaiza",
+      "Luis Miguel Galvis Elizalde",
+      "Laura Sofía Arango Tabares"
+    ],
+    "email": [
+      "jonathan.posada1@udea.edu.co",
+      "miguel.galvis@udea.edu.co",
+      "laura.arangot@udea.edu.co"
+    ],
+    "abst": "Esta simulación permite visualizar las funciones de onda para el oscilador armónico cuántico, sus módulos cuadrados y la evolución temporal de su parte real.",
+    "icon": "resources/logos/Sim_QA20232_400x400.png"
+  },
 
   "sim01": {
     "path": "/simulaciones-fisica/simul_01",

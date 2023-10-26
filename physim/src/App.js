@@ -334,6 +334,21 @@ export default function App() {
               />
             )}
           />
+          <Route
+            forceRefresh={true}
+            exact
+            path={dataSim.simQuAr20232.path}
+            component={() => (
+              <SimFrame
+                paneTitle={dataSim.simQuAr20232.title}
+                url={dataSim.simQuAr20232.url}
+                doc={dataSim.simQuAr20232.doc}
+                act={dataSim.simQuAr20232.act}
+                author={dataSim.simQuAr20232.author}
+                email={dataSim.simQuAr20232.email}
+              />
+            )}
+          />
 
           <Route
             forceRefresh={true}
