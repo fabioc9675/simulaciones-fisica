@@ -22,7 +22,14 @@ export default function MainView() {
       <div className="MainFrame pane-title">
         <div></div>
         <div>Proyecto simuladores</div>
-        <img src={logo} alt="" height="80%" />
+        <a
+          className="grey-text text-lighten-4 right"
+          href="https://www.udea.edu.co"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={logo} alt="" height="80%" />
+        </a>
       </div>
       <div className="MainFrame-pane">
         <div className="MainFrame-pane pane-left">
