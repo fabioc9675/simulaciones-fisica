@@ -52,8 +52,10 @@ export default function DesignInfo(props) {
               paddingTop: "0.5rem",
             }}
           >
-            <div style={{ fontSize: "1.2rem" }}>Jose David Ruiz</div>
-            <div style={{ fontSize: "1.0rem" }}>josed.ruiz@udea.edu.co</div>
+            {/*<div style={{ fontSize: "1.2rem" }}>Jose David Ruiz</div>
+            <div style={{ fontSize: "1.0rem" }}>josed.ruiz@udea.edu.co</div>*/}
+            <div style={{ fontSize: "1.2rem" }}>Juan Marcos Marín</div>
+            <div style={{ fontSize: "1.0rem" }}>marcos.marin@udea.edu.co</div>
           </div>
           <div
             style={{
