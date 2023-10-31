@@ -349,6 +349,21 @@ export default function App() {
               />
             )}
           />
+          <Route
+            forceRefresh={true}
+            exact
+            path={dataSim.simPiOs20232.path}
+            component={() => (
+              <SimFrame
+                paneTitle={dataSim.simPiOs20232.title}
+                url={dataSim.simPiOs20232.url}
+                doc={dataSim.simPiOs20232.doc}
+                act={dataSim.simPiOs20232.act}
+                author={dataSim.simPiOs20232.author}
+                email={dataSim.simPiOs20232.email}
+              />
+            )}
+          />
 
           <Route
             forceRefresh={true}

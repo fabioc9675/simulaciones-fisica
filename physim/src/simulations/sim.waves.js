@@ -82,6 +82,15 @@ export default function SimWaves() {
                 abstract={dataSim.simDoOs20231.abst}
               />
             </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion PO_20232"
+                pathUrl={dataSim.simPiOs20232.path}
+                imgDir={dataSim.simPiOs20232.icon}
+                title={dataSim.simPiOs20232.title}
+                abstract={dataSim.simPiOs20232.abst}
+              />
+            </div>
           </div>
         </div>
       </div>

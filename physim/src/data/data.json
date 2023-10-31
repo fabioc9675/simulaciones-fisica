@@ -305,6 +305,17 @@
     "abst": "Esta simulación permite visualizar las funciones de onda para el oscilador armónico cuántico, sus módulos cuadrados y la evolución temporal de su parte real.",
     "icon": "resources/logos/Sim_QA20232_400x400.png"
   },
+  "simPiOs20232": {
+    "path": "/simulaciones-fisica/PipeOscillator20232",
+    "title": "Ondas Estacionarias en Tubos",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_2/PipeOscillator/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_2/PipeOscillator/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_2/PipeOscillator/act.pdf&embedded=true",
+    "author": ["Gustavo Castrillón Yepes", "Ana María Correa Castrillón", "-"],
+    "email": ["gadolfo.castrillon@udea.edu.co", "ana.correa3@udea.edu.co", "-"],
+    "abst": "Simulación con tres tipos de tubos muestra el comportamiento del aire y la formación de nodos/antinodos según la frecuencia de vibración.",
+    "icon": "resources/logos/Sim_PO20232_400x400.png"
+  },
 
   "sim01": {
     "path": "/simulaciones-fisica/simul_01",
