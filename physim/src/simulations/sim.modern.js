@@ -46,6 +46,15 @@ export default function SimModern() {
                 abstract={dataSim.simHyAt20231.abst}
               />
             </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion RD_20232"
+                pathUrl={dataSim.simRaDe20232.path}
+                imgDir={dataSim.simRaDe20232.icon}
+                title={dataSim.simRaDe20232.title}
+                abstract={dataSim.simRaDe20232.abst}
+              />
+            </div>
           </div>
         </div>
       </div>

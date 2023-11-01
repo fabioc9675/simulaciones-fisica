@@ -327,6 +327,25 @@
     "abst": "Este código simula la dispersión de gases en dos cajas separadas por una línea divisoria controlando partículas con diferentes características.",
     "icon": "resources/logos/Sim_GD20232_400x400.png"
   },
+  "simRaDe20232": {
+    "path": "/simulaciones-fisica/RadioactiveDecay20232",
+    "title": "Decaimiento radioactivo de elementos",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_2/RadioactiveDecay/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_2/RadioactiveDecay/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_2/RadioactiveDecay/act.pdf&embedded=true",
+    "author": [
+      "Simón González Gómez",
+      "José Luis Builes Canchala",
+      "Santiago Galvis Duque"
+    ],
+    "email": [
+      "simon.gonzalezg1@udea.edu.co",
+      "jose.builesc@udea.edu.co",
+      "santiago.galvis@udea.edu.co"
+    ],
+    "abst": "La simulación presenta dos elementos en decaimiento, visualizando la desintegración de la cantidad de átomos en el tiempo y con la posibilidad de modificar parámetros.",
+    "icon": "resources/logos/Sim_RD20232_400x400.jpeg"
+  },
 
   "sim01": {
     "path": "/simulaciones-fisica/simul_01",
