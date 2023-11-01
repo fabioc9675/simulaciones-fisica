@@ -316,6 +316,17 @@
     "abst": "Simulación con tres tipos de tubos muestra el comportamiento del aire y la formación de nodos/antinodos según la frecuencia de vibración.",
     "icon": "resources/logos/Sim_PO20232_400x400.png"
   },
+  "simGaDi20232": {
+    "path": "/simulaciones-fisica/GasDiffusion20232",
+    "title": "Difusión de gases",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_2/GasDiffusion/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_2/GasDiffusion/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_2/GasDiffusion/act.pdf&embedded=true",
+    "author": ["Santiago Ruiz Piedrahita", "-", "-"],
+    "email": ["santiago.ruizp@udea.edu.co", "-", "-"],
+    "abst": "Este código simula la dispersión de gases en dos cajas separadas por una línea divisoria controlando partículas con diferentes características.",
+    "icon": "resources/logos/Sim_GD20232_400x400.png"
+  },
 
   "sim01": {
     "path": "/simulaciones-fisica/simul_01",

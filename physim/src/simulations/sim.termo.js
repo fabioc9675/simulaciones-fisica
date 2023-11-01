@@ -23,6 +23,15 @@ export default function SimTermo() {
                 abstract={dataSim.simIdGa.abst}
               />
             </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion GD_20232"
+                pathUrl={dataSim.simGaDi20232.path}
+                imgDir={dataSim.simGaDi20232.icon}
+                title={dataSim.simGaDi20232.title}
+                abstract={dataSim.simGaDi20232.abst}
+              />
+            </div>
           </div>
         </div>
 
