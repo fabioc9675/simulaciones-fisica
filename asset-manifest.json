@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/simulaciones-fisica/static/css/main.5afef3f6.css",
-    "main.js": "/simulaciones-fisica/static/js/main.a8562f05.js",
+    "main.js": "/simulaciones-fisica/static/js/main.42f64383.js",
     "index.html": "/simulaciones-fisica/index.html",
     "main.5afef3f6.css.map": "/simulaciones-fisica/static/css/main.5afef3f6.css.map",
-    "main.a8562f05.js.map": "/simulaciones-fisica/static/js/main.a8562f05.js.map"
+    "main.42f64383.js.map": "/simulaciones-fisica/static/js/main.42f64383.js.map"
   },
   "entrypoints": [
     "static/css/main.5afef3f6.css",
-    "static/js/main.a8562f05.js"
+    "static/js/main.42f64383.js"
   ]
 }
