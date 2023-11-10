@@ -73,6 +73,7 @@ function SimFrame(props) {
         <head>
           <meta charset="utf-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <canvas style="position:fixed;top:0;left:0;border:1px;" width="500" height="500" id="canvas"></canvas>
           <title>p5.js example</title>
           <style>
             body {
