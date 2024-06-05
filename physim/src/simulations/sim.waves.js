@@ -16,6 +16,15 @@ export default function SimWaves() {
           <div className="Simulators-pane">
             <div className="SimButton">
               <SimDescriptor
+                buttonLabel="Simulacion DS_20241"
+                pathUrl={dataSim.simDoSl20241.path}
+                imgDir={dataSim.simDoSl20241.icon}
+                title={dataSim.simDoSl20241.title}
+                abstract={dataSim.simDoSl20241.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
                 buttonLabel="Simulacion SP"
                 pathUrl={dataSim.simSiPe.path}
                 imgDir={dataSim.simSiPe.icon}

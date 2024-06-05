@@ -1,494 +1,458 @@
 {
-    "simEnTr": {
-        "path": "/simulaciones-fisica/EnergyTransfer",
-        "title": "Colisión de partículas en 2D",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_1/EnergyTransfer/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/EnergyTransfer/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/EnergyTransfer/act.pdf&embedded=true",
-        "author": ["Carlos Toro", "Lucas Quiceno", "Victor Oviedo"],
-        "email": [
-            "carlos.toroc@udea.edu.co",
-            "lucas.quiceno@udea.edu.co",
-            "victor.oviedo@udea.edu.co"
-        ],
-        "abst": "Colisiones de partículas 2D donde se puede variar el número bolas, su masa, velocidad inicial, parámetro de fricción y porcentaje de elasticidad en los choques.",
-        "icon": "resources/logos/Sim_ET_400x400.jpg"
-    },
-    "simIdGa": {
-        "path": "/simulaciones-fisica/IdealGas",
-        "title": "Gas ideal",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_1/IdealGas/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/IdealGas/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/IdealGas/act.pdf&embedded=true",
-        "author": ["Jhoan Eusse", "Andrés Muñoz", "Santiago Tabares"],
-        "email": [
-            "camilo.eusse@udea.edu.co",
-            "andres.munoza@udea.edu.co",
-            "santiago.tabaresg@udea.edu.co"
-        ],
-        "abst": "Se simula un gas ideal el cual sigue una distribución de Maxwell pudiendo variar los parámetros de temperatura y velocidades iniciales.",
-        "icon": "resources/logos/Sim_IG_400x400.png"
-    },
-    "simLoVo": {
-        "path": "/simulaciones-fisica/LotkaVolterra",
-        "title": "Ecuaciones de Lotka-Volterra",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_1/LotkaVolterra/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/LotkaVolterra/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/LotkaVolterra/act.pdf&embedded=true",
-        "author": ["Carlos Betancur", "Yessica Lenis", "-"],
-        "email": [
-            "candres.betancur@udea.edu.co",
-            "yessica.lenis@udea.edu.co",
-            "-"
-        ],
-        "abst": "Simulación orientada a las ciencias biológicas la cual modela un sistema dinámico depredador-presa entre 2 especies cuyo comportamiento poblacional se rige mediante las ecuaciones de Lotka-Volterra.",
-        "icon": "resources/logos/Sim_LV_400x400.jpg"
-    },
-    "simSiPe": {
-        "path": "/simulaciones-fisica/SimplePendulum",
-        "title": "Péndulo Simple",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_1/SimplePendulum/Sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/SimplePendulum/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/SimplePendulum/act.pdf&embedded=true",
-        "author": ["Daniel Henao", "Alexander Valencia", "-"],
-        "email": [
-            "daniel.henao3@udea.edu.co",
-            "alexander.valenciaa@udea.edu.co",
-            "-"
-        ],
-        "abst": "Se propone el estudio del movimiento producido por el péndulo simple en ausencia de fricción, identificando propiedades como la relación entre el período y la longitud.",
-        "icon": "resources/logos/Sim_SP_400x400.jpg"
-    },
-    "simEnCo": {
-        "path": "/simulaciones-fisica/EnergyConservation",
-        "title": "Conservación de la energía",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_1/EnergyConservation/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/EnergyConservation/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/EnergyConservation/act.pdf&embedded=true",
-        "author": ["Luis Avendaño", "Santiago Quintero", "-"],
-        "email": [
-            "adrian.avendano@udea.edu.co",
-            "santiago.quinteroc@udea.edu.co",
-            "-"
-        ],
-        "abst": "Se presenta una pelota en caída libre o tiro parabólico para detallar la conservación de la energía mecánica.",
-        "icon": "resources/logos/Sim_EC_400x400.png"
-    },
-    "simCoOs": {
-        "path": "/simulaciones-fisica/CoupledOscillator",
-        "title": "Osciladores acoplados no amortiguados",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_1/CoupledOscillator/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/CoupledOscillator/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/CoupledOscillator/act.pdf&embedded=true",
-        "author": ["Rafael Barrera", "Andrea Valencia", "-"],
-        "email": [
-            "rafael.barreraq@udea.edu.co",
-            "andrea.valenciac@udea.edu.co",
-            "-"
-        ],
-        "abst": "Por medio de esta simulación es posible recrear el comportamiento de dos osciladores que se relacionan entre si por medio de resortes.",
-        "icon": "resources/logos/Sim_CO_400x400.jpg"
-    },
-    "simSuRe": {
-        "path": "/simulaciones-fisica/SurfaceReflection",
-        "title": "Refracción, reflexión y transmisión",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_1/SurfaceReflection/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/SurfaceReflection/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/SurfaceReflection/act.pdf&embedded=true",
-        "author": ["Julián Sierra", "-", "-"],
-        "email": ["juilan.sierrav@udea.edu.co", "-", "-"],
-        "abst": "En esta simulación se detalla cómo se comporta la luz al pasar de un medio a otro. Se halla el ángulo de refracción mediante la ley de Descartes-Snell, se halla el ángulo crítico, la intensidad de reflexión y transmisión mediante la fórmula de Fresnel-Snell.",
-        "icon": "resources/logos/Sim_SR_400x400.jpg"
-    },
-    "simBlBo": {
-        "path": "/simulaciones-fisica/BlackBody",
-        "title": "Radiación de cuerpo negro",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_1/BlackBody/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/BlackBody/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/BlackBody/act.pdf&embedded=true",
-        "author": ["Valentina Bedoya", "Maryi Carvajal", "-"],
-        "email": [
-            "valentina.bedoyaa@udea.edu.co",
-            "maryi.carvajal@udea.edu.co",
-            "-"
-        ],
-        "abst": "En esta simulación se aprederá sobre el espectro electromagnético, el cual, esta estrechamente relaciona con la radiación de cuerpo negro.",
-        "icon": "resources/logos/Sim_BB_400x400.png"
-    },
-    "simDaOs": {
-        "path": "/simulaciones-fisica/DampedOscillator",
-        "title": "Oscilador amortiguado",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_2/DampedOscillator/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_2/DampedOscillator/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_2/DampedOscillator/act.pdf&embedded=true",
-        "author": ["Juan David Ramírez", "-", "-"],
-        "email": ["juan.ramirez19@udea.edu.co", "-", "-"],
-        "abst": "Un oscilador físico que debido a los parámetros del sistema puede presentar o no oscilaciones. La solución de la ecuación de movimiento deviene de una ecuación diferencial de segundo orden.",
-        "icon": "resources/logos/Sim_DO_400x400.jpg"
-    },
-    "simDoPe": {
-        "path": "/simulaciones-fisica/DoublePendulum",
-        "title": "Péndulo doble",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_2/DoublePendulum/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_2/DoublePendulum/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_2/DoublePendulum/act.pdf&embedded=true",
-        "author": ["Juan David Ramírez", "-", "-"],
-        "email": ["juan.ramirez19@udea.edu.co", "-", "-"],
-        "abst": "Un péndulo doble es un sistema compuesto por dos péndulos, con el segundo colgando del extremo del primero. La modificación de condiciones iniciales hace que se comporte como un sistema determinista o un sistema caótico.",
-        "icon": "resources/logos/Sim_DP_400x400.jpg"
-    },
-    "simMeAx": {
-        "path": "/simulaciones-fisica/MeanAxis",
-        "title": "Teorema del eje intermedio",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2022_1/MeanAxis/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2022_1/MeanAxis/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2022_1/MeanAxis/act.pdf&embedded=true",
-        "author": ["Juan Andrés González", "Cristian Serna", "-"],
-        "email": [
-            "juan.gonzalezm1@udea.edu.co",
-            "cristian.serna1@udea.edu.co",
-            "-"
-        ],
-        "abst": "Simulador del movimiento de rotación de objetos tridimensionales y descripción del movimiento anormal en objetos asimétricos.",
-        "icon": "resources/logos/Sim_MA_400x400.jpg"
-    },
-    "simMaSp": {
-        "path": "/simulaciones-fisica/MassSpectro",
-        "title": "Espectrómetro de masas",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2022_1/MassSpectro/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2022_1/MassSpectro/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2022_1/MassSpectro/act.pdf&embedded=true",
-        "author": ["Alejandro Restrepo Giraldo", "Juan Sebastián Ramírez", "-"],
-        "email": [
-            "alejandro.restrepo19@udea.edu.co",
-            "juan.ramirez114@udea.edu.co",
-            "-"
-        ],
-        "abst": "Se analiza la interacción de cargas eléctricas con campos magnéticos en el contexto de la aplicación tecnológica del espectrómetro de masas.",
-        "icon": "resources/logos/Sim_MS_400x400.jpg"
-    },
-    "simIsMo": {
-        "path": "/simulaciones-fisica/IsingModel",
-        "title": "Materiales en el Modelo Ising",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2022_1/IsingModel/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2022_1/IsingModel/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2022_1/IsingModel/act.pdf&embedded=true",
-        "author": ["Daniela Andrea Torres Gómez", "Sergio Duque Mejía", "-"],
-        "email": [
-            "dandrea.torres@udea.edu.co",
-            "sergio.duquem@udea.edu.co",
-            "-"
-        ],
-        "abst": "Estudio del comportamiento del promedio de magnetización cuando varía la temperatura para materiales con propiedades ferromagnéticas, paramagnéticas y anti-ferromagnéticas utilizando el modelo simplificado de Ising.",
-        "icon": "resources/logos/Sim_IM_400x400.png"
-    },
-    "simFiCh": {
-        "path": "/simulaciones-fisica/FieldCharge",
-        "title": "Partícula en campo EM",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2022_1/FieldCharge/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2022_1/FieldCharge/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2022_1/FieldCharge/act.pdf&embedded=true",
-        "author": ["Samuel Hoyos", "Esteban Marulanda", "Carlos Granada"],
-        "email": [
-            "samuel.hoyos@udea.edu.co",
-            "esteban.marulandaa@udea.edu.co",
-            "candres.granada@udea.edu.co"
-        ],
-        "abst": "Se simula el movimiento de una partícula cargada inmersa en un campo electromagnético. Se puede escoger el plano de visualización y se grafica el movimiento.",
-        "icon": "resources/logos/Sim_FC_400x400.jpg"
-    },
-    "simBoDr": {
-        "path": "/simulaciones-fisica/BodyDrop",
-        "title": "Cuerpos rígidos rodando",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2022_1/BodyDrop/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2022_1/BodyDrop/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2022_1/BodyDrop/act.pdf&embedded=true",
-        "author": ["Edwin Dair Zapata", "Andres Felipe Gomez", "-"],
-        "email": ["dair.zapata@udea.edu.co", "andres.gomez29@udea.edu.co", "-"],
-        "abst": "La simulación consiste en 4 cuerpos rígidos rondando por un plano inclinado, él objetivo es entender porqué un objeto en particular gana la carrera.",
-        "icon": "resources/logos/Sim_BD_400x400.jpg"
-    },
-    "simDoOs20231": {
-        "path": "/simulaciones-fisica/DoubleOscillator20231",
-        "title": "Caos en péndulo doble",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_1/DoubleOscillator/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/DoubleOscillator/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/DoubleOscillator/act.pdf&embedded=true",
-        "author": ["Maria José Domínguez", "-", "-"],
-        "email": ["mjose.dominguez@udea.edu.co", "-", "-"],
-        "abst": "Simulación que brinda una representación dinámica del péndulo doble, su espacio de fase y las figuras de Lissajous, revelando su complejidad y comportamiento caótico.",
-        "icon": "resources/logos/Sim_DO20231_400x400.png"
-    },
-    "simFlMo20231": {
-        "path": "/simulaciones-fisica/FluidMovement20231",
-        "title": "Movimiento de cuerpos en fluidos",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_1/FluidsMovement/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/FluidsMovement/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/FluidsMovement/act.pdf&embedded=true",
-        "author": ["Jacobo Parodi Díez", "-", "-"],
-        "email": ["jacobo.parodi@udea.edu.co", "-", "-"],
-        "abst": "Esta simulación describe el comportamiento de cuerpos sometidos a las fuerzas que puede ejercer un fluido sobre él como el empuje o el arrastre.",
-        "icon": "resources/logos/Sim_FM20231_400x400.png"
-    },
-    "simPaLa20231": {
-        "path": "/simulaciones-fisica/ParabolicLaunch20231",
-        "title": "Proyectil en el sistema solar",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_1/ParabolicLaunch/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/ParabolicLaunch/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/ParabolicLaunch/act.pdf&embedded=true",
-        "author": ["Juan Pablo Ortiz", "Samuel Quitian", "Waira Murillo"],
-        "email": [
-            "juanp.ortiz@udea.edu.co",
-            "samuel.quitiang@udea.edu.co",
-            "waira.murillo@udea.edu.co"
-        ],
-        "abst": "Simulación Tiro parabólico en diferentes planetas, se estudia las componentes vectoriales del movimiento, velocidad y ángulo iniciales, variación masa, rozamiento y variación de la gravedad.",
-        "icon": "resources/logos/Sim_PL20231_400x400.jpg"
-    },
-    "simRiPe20231": {
-        "path": "/simulaciones-fisica/RigidPendulum20231",
-        "title": "Péndulo doble rígido",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_1/RigidPendulum/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/RigidPendulum/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/RigidPendulum/act.pdf&embedded=true",
-        "author": ["Kevin Cortés", "Samuel Vasco", "-"],
-        "email": ["kevin.cortes@udea.edu.co", "samuel.vasco@udea.edu.co", "-"],
-        "abst": "Se presenta una simulación de un péndulo doble compuesto por cuerpos rígidos con distribución de masas uniforme.",
-        "icon": "resources/logos/Sim_RP20231_400x400.png"
-    },
-    "simIsMa20231": {
-        "path": "/simulaciones-fisica/IssingMagnetic20231",
-        "title": "Modelo de ising magnético",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_1/IssingMagnetic/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/IssingMagnetic/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/IssingMagnetic/act.pdf&embedded=true",
-        "author": [
-            "David Andrés Pedroza",
-            "Sebastian Saavedra Patiño",
-            "Jordan Hernandez Daza"
-        ],
-        "email": [
-            "david.pedroza@udea.edu.co",
-            "wilfredo.saavedra@udea.edu.co",
-            "jordan.hernandez@udea.edu.co"
-        ],
-        "abst": "El modelo de Ising es un modelo físico que describe la interacción entre espines en una red, útil para estudiar fenómenos magnéticos.",
-        "icon": "resources/logos/Sim_IM20231_400x400.jpg"
-    },
-    "simHyAt20231": {
-        "path": "/simulaciones-fisica/HydrogenAtom20231",
-        "title": "Orbitales del átomo de Hidrógeno",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_1/HydrogenAtom/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/HydrogenAtom/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/HydrogenAtom/act.pdf&embedded=true",
-        "author": [
-            "Cristian David Gutiérrez",
-            "Joseph Nicolay Ruiz",
-            "Sergio Castrillón"
-        ],
-        "email": [
-            "cdavid.gutierrez@udea.edu.co",
-            "joseph.ruiz@udea.edu.co",
-            "sergio.castrillons@udea.edu.co"
-        ],
-        "abst": "Presentación de una visualización espacial de las soluciones de la ecuación de Schrödinger aplicada al átomo de hidrógeno.",
-        "icon": "resources/logos/Sim_HA20231_400x400.png"
-    },
-    "simQuAr20232": {
-        "path": "/simulaciones-fisica/QuantumArmonic20232",
-        "title": "Oscilador Armónico Cuántico",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_2/QuantumArmonic/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_2/QuantumArmonic/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_2/QuantumArmonic/act.pdf&embedded=true",
-        "author": [
-            "Jonathan Posada Loaiza",
-            "Luis Miguel Galvis Elizalde",
-            "Laura Sofía Arango Tabares"
-        ],
-        "email": [
-            "jonathan.posada1@udea.edu.co",
-            "miguel.galvis@udea.edu.co",
-            "laura.arangot@udea.edu.co"
-        ],
-        "abst": "Esta simulación permite visualizar las funciones de onda para el oscilador armónico cuántico, sus módulos cuadrados y la evolución temporal de su parte real.",
-        "icon": "resources/logos/Sim_QA20232_400x400.png"
-    },
-    "simPiOs20232": {
-        "path": "/simulaciones-fisica/PipeOscillator20232",
-        "title": "Ondas Estacionarias en Tubos",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_2/PipeOscillator/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_2/PipeOscillator/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_2/PipeOscillator/act.pdf&embedded=true",
-        "author": [
-            "Gustavo Castrillón Yepes",
-            "Ana María Correa Castrillón",
-            "-"
-        ],
-        "email": [
-            "gadolfo.castrillon@udea.edu.co",
-            "ana.correa3@udea.edu.co",
-            "-"
-        ],
-        "abst": "Simulación con tres tipos de tubos muestra el comportamiento del aire y la formación de nodos/antinodos según la frecuencia de vibración.",
-        "icon": "resources/logos/Sim_PO20232_400x400.png"
-    },
-    "simGaDi20232": {
-        "path": "/simulaciones-fisica/GasDiffusion20232",
-        "title": "Difusión de gases",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_2/GasDiffusion/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_2/GasDiffusion/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_2/GasDiffusion/act.pdf&embedded=true",
-        "author": ["Santiago Ruiz Piedrahita", "-", "-"],
-        "email": ["santiago.ruizp@udea.edu.co", "-", "-"],
-        "abst": "Este código simula la dispersión de gases en dos cajas separadas por una línea divisoria controlando partículas con diferentes características.",
-        "icon": "resources/logos/Sim_GD20232_400x400.png"
-    },
-    "simRaDe20232": {
-        "path": "/simulaciones-fisica/RadioactiveDecay20232",
-        "title": "Decaimiento radioactivo de elementos",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_2/RadioactiveDecay/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_2/RadioactiveDecay/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_2/RadioactiveDecay/act.pdf&embedded=true",
-        "author": [
-            "Simón González Gómez",
-            "José Luis Builes Canchala",
-            "Santiago Galvis Duque"
-        ],
-        "email": [
-            "simon.gonzalezg1@udea.edu.co",
-            "jose.builesc@udea.edu.co",
-            "santiago.galvis@udea.edu.co"
-        ],
-        "abst": "La simulación presenta dos elementos en decaimiento, visualizando la desintegración de la cantidad de átomos en el tiempo y con la posibilidad de modificar parámetros.",
-        "icon": "resources/logos/Sim_RD20232_400x400.jpeg"
-    },
-    "simChPa20241": {
-        "path": "/simulaciones-fisica/ChargedParticle20241",
-        "title": "Dinámica de partículas cargadas",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2024_1/ChargeParticles/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_1/ChargeParticles/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_1/ChargeParticles/act.pdf&embedded=true",
-        "author": ["Manolo Cardona Menco", "Dany Durango Escobar", "-"],
-        "email": [
-            "manolo.cardona@udea.edu.co",
-            "dany.durangoe@udea.edu.co",
-            "-"
-        ],
-        "abst": "Trayectorias de cargas el ́ectricamente cargadas en interacci ́on con un campo el ́ectrico constante.",
-        "icon": "resources/logos/Sim_CP20241_400x400.png"
-    },
-    "simDoSl20241": {
-        "path": "/simulaciones-fisica/DoubleSlit20241",
-        "title": "Experimento Doble Rendija",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2024_1/DoubleSlit/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_1/DoubleSlit/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_1/DoubleSlit/act.pdf&embedded=true",
-        "author": [
-            "Santiago Moreno Gonzalez",
-            "Alejandra Echeverri",
-            "Juan Esteban Ospina Holguin"
-        ],
-        "email": [
-            "santiago.moreno5@udea.edu.co",
-            "alejandra.echeverri3@udea.edu.co",
-            "juan.ospina25@udea.edu.co"
-        ],
-        "abst": "La simulación visualiza el experimento de la doble rendija, mostrando la dualidad onda particula mediante sliders y activación de detectores.",
-        "icon": "resources/logos/Sim_DS20241_400x400.jpg"
-    },
-    "simNuRe20241": {
-        "path": "/simulaciones-fisica/NuclearReaction20241",
-        "title": "Reacción Nuclear en cadena",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2024_1/NuclearReaction/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_1/NuclearReaction/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_1/NuclearReaction/act.pdf&embedded=true",
-        "author": [
-            "Juan Manuel Albarracin Herrera",
-            "Santiago Ramirez Puentes",
-            "-"
-        ],
-        "email": [
-            "manuel.albarracin@udea.edu.co",
-            "santiago.ramirez28@udea.edu.co",
-            "-"
-        ],
-        "abst": "El programa muestra una reacción nuclear en cadena: un neutrón impacta uranio-235, liberando neutrones que desestabilizan más núcleos, generando energía abundante.",
-        "icon": "resources/logos/Sim_NR20241_400x400.jpg"
-    },
-    "simPeMa20241": {
-        "path": "/simulaciones-fisica/PedagogicMachine20241",
-        "title": "Maquina pedagógica",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2024_1/PedagogicMachine/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_1/PedagogicMachine/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_1/PedagogicMachine/act.pdf&embedded=true",
-        "author": [
-            "German Torres Arroyave",
-            "Sebastian Diaz Granados Cano",
-            "-"
-        ],
-        "email": [
-            "german.torres@udea.edu.co",
-            "sdiazgranados.cano@udea.edu.co",
-            "-"
-        ],
-        "abst": "La invención de poleas le permitió al ser humano transformar la manera de transferir fuerza. Veamos que tipo de fenómenos surgen a partir de ellas.",
-        "icon": "resources/logos/Sim_PM20241_400x400.jpeg"
-    },
-    "simTuEf20241": {
-        "path": "/simulaciones-fisica/TunnelEffect20241",
-        "title": "Efecto Túnel",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2024_1/TunnelEffect/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_1/TunnelEffect/phy.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_1/TunnelEffect/act.pdf&embedded=true",
-        "author": ["Juan Felipe Castello Arango", "-", "-"],
-        "email": ["juan.castello@udea.edu.co", "-", "-"],
-        "abst": "Solución gráfica, interactiva y animada a la ecuación de Schrödinger para una partícula que choca contra una barrera de potencial, presentando el fenómeno del tunelamiento cuántico.",
-        "icon": "resources/logos/Sim_TE20241_400x400.jpeg"
-    },
+  "simEnTr": {
+    "path": "/simulaciones-fisica/EnergyTransfer",
+    "title": "Colisión de partículas en 2D",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_1/EnergyTransfer/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/EnergyTransfer/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/EnergyTransfer/act.pdf&embedded=true",
+    "author": ["Carlos Toro", "Lucas Quiceno", "Victor Oviedo"],
+    "email": [
+      "carlos.toroc@udea.edu.co",
+      "lucas.quiceno@udea.edu.co",
+      "victor.oviedo@udea.edu.co"
+    ],
+    "abst": "Colisiones de partículas 2D donde se puede variar el número bolas, su masa, velocidad inicial, parámetro de fricción y porcentaje de elasticidad en los choques.",
+    "icon": "resources/logos/Sim_ET_400x400.jpg"
+  },
+  "simIdGa": {
+    "path": "/simulaciones-fisica/IdealGas",
+    "title": "Gas ideal",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_1/IdealGas/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/IdealGas/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/IdealGas/act.pdf&embedded=true",
+    "author": ["Jhoan Eusse", "Andrés Muñoz", "Santiago Tabares"],
+    "email": [
+      "camilo.eusse@udea.edu.co",
+      "andres.munoza@udea.edu.co",
+      "santiago.tabaresg@udea.edu.co"
+    ],
+    "abst": "Se simula un gas ideal el cual sigue una distribución de Maxwell pudiendo variar los parámetros de temperatura y velocidades iniciales.",
+    "icon": "resources/logos/Sim_IG_400x400.png"
+  },
+  "simLoVo": {
+    "path": "/simulaciones-fisica/LotkaVolterra",
+    "title": "Ecuaciones de Lotka-Volterra",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_1/LotkaVolterra/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/LotkaVolterra/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/LotkaVolterra/act.pdf&embedded=true",
+    "author": ["Carlos Betancur", "Yessica Lenis", "-"],
+    "email": ["candres.betancur@udea.edu.co", "yessica.lenis@udea.edu.co", "-"],
+    "abst": "Simulación orientada a las ciencias biológicas la cual modela un sistema dinámico depredador-presa entre 2 especies cuyo comportamiento poblacional se rige mediante las ecuaciones de Lotka-Volterra.",
+    "icon": "resources/logos/Sim_LV_400x400.jpg"
+  },
+  "simSiPe": {
+    "path": "/simulaciones-fisica/SimplePendulum",
+    "title": "Péndulo Simple",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_1/SimplePendulum/Sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/SimplePendulum/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/SimplePendulum/act.pdf&embedded=true",
+    "author": ["Daniel Henao", "Alexander Valencia", "-"],
+    "email": [
+      "daniel.henao3@udea.edu.co",
+      "alexander.valenciaa@udea.edu.co",
+      "-"
+    ],
+    "abst": "Se propone el estudio del movimiento producido por el péndulo simple en ausencia de fricción, identificando propiedades como la relación entre el período y la longitud.",
+    "icon": "resources/logos/Sim_SP_400x400.jpg"
+  },
+  "simEnCo": {
+    "path": "/simulaciones-fisica/EnergyConservation",
+    "title": "Conservación de la energía",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_1/EnergyConservation/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/EnergyConservation/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/EnergyConservation/act.pdf&embedded=true",
+    "author": ["Luis Avendaño", "Santiago Quintero", "-"],
+    "email": [
+      "adrian.avendano@udea.edu.co",
+      "santiago.quinteroc@udea.edu.co",
+      "-"
+    ],
+    "abst": "Se presenta una pelota en caída libre o tiro parabólico para detallar la conservación de la energía mecánica.",
+    "icon": "resources/logos/Sim_EC_400x400.png"
+  },
+  "simCoOs": {
+    "path": "/simulaciones-fisica/CoupledOscillator",
+    "title": "Osciladores acoplados no amortiguados",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_1/CoupledOscillator/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/CoupledOscillator/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/CoupledOscillator/act.pdf&embedded=true",
+    "author": ["Rafael Barrera", "Andrea Valencia", "-"],
+    "email": [
+      "rafael.barreraq@udea.edu.co",
+      "andrea.valenciac@udea.edu.co",
+      "-"
+    ],
+    "abst": "Por medio de esta simulación es posible recrear el comportamiento de dos osciladores que se relacionan entre si por medio de resortes.",
+    "icon": "resources/logos/Sim_CO_400x400.jpg"
+  },
+  "simSuRe": {
+    "path": "/simulaciones-fisica/SurfaceReflection",
+    "title": "Refracción, reflexión y transmisión",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_1/SurfaceReflection/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/SurfaceReflection/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/SurfaceReflection/act.pdf&embedded=true",
+    "author": ["Julián Sierra", "-", "-"],
+    "email": ["juilan.sierrav@udea.edu.co", "-", "-"],
+    "abst": "En esta simulación se detalla cómo se comporta la luz al pasar de un medio a otro. Se halla el ángulo de refracción mediante la ley de Descartes-Snell, se halla el ángulo crítico, la intensidad de reflexión y transmisión mediante la fórmula de Fresnel-Snell.",
+    "icon": "resources/logos/Sim_SR_400x400.jpg"
+  },
+  "simBlBo": {
+    "path": "/simulaciones-fisica/BlackBody",
+    "title": "Radiación de cuerpo negro",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_1/BlackBody/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/BlackBody/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_1/BlackBody/act.pdf&embedded=true",
+    "author": ["Valentina Bedoya", "Maryi Carvajal", "-"],
+    "email": [
+      "valentina.bedoyaa@udea.edu.co",
+      "maryi.carvajal@udea.edu.co",
+      "-"
+    ],
+    "abst": "En esta simulación se aprederá sobre el espectro electromagnético, el cual, esta estrechamente relaciona con la radiación de cuerpo negro.",
+    "icon": "resources/logos/Sim_BB_400x400.png"
+  },
+  "simDaOs": {
+    "path": "/simulaciones-fisica/DampedOscillator",
+    "title": "Oscilador amortiguado",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_2/DampedOscillator/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_2/DampedOscillator/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_2/DampedOscillator/act.pdf&embedded=true",
+    "author": ["Juan David Ramírez", "-", "-"],
+    "email": ["juan.ramirez19@udea.edu.co", "-", "-"],
+    "abst": "Un oscilador físico que debido a los parámetros del sistema puede presentar o no oscilaciones. La solución de la ecuación de movimiento deviene de una ecuación diferencial de segundo orden.",
+    "icon": "resources/logos/Sim_DO_400x400.jpg"
+  },
+  "simDoPe": {
+    "path": "/simulaciones-fisica/DoublePendulum",
+    "title": "Péndulo doble",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2021_2/DoublePendulum/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_2/DoublePendulum/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2021_2/DoublePendulum/act.pdf&embedded=true",
+    "author": ["Juan David Ramírez", "-", "-"],
+    "email": ["juan.ramirez19@udea.edu.co", "-", "-"],
+    "abst": "Un péndulo doble es un sistema compuesto por dos péndulos, con el segundo colgando del extremo del primero. La modificación de condiciones iniciales hace que se comporte como un sistema determinista o un sistema caótico.",
+    "icon": "resources/logos/Sim_DP_400x400.jpg"
+  },
+  "simMeAx": {
+    "path": "/simulaciones-fisica/MeanAxis",
+    "title": "Teorema del eje intermedio",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2022_1/MeanAxis/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2022_1/MeanAxis/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2022_1/MeanAxis/act.pdf&embedded=true",
+    "author": ["Juan Andrés González", "Cristian Serna", "-"],
+    "email": [
+      "juan.gonzalezm1@udea.edu.co",
+      "cristian.serna1@udea.edu.co",
+      "-"
+    ],
+    "abst": "Simulador del movimiento de rotación de objetos tridimensionales y descripción del movimiento anormal en objetos asimétricos.",
+    "icon": "resources/logos/Sim_MA_400x400.jpg"
+  },
+  "simMaSp": {
+    "path": "/simulaciones-fisica/MassSpectro",
+    "title": "Espectrómetro de masas",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2022_1/MassSpectro/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2022_1/MassSpectro/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2022_1/MassSpectro/act.pdf&embedded=true",
+    "author": ["Alejandro Restrepo Giraldo", "Juan Sebastián Ramírez", "-"],
+    "email": [
+      "alejandro.restrepo19@udea.edu.co",
+      "juan.ramirez114@udea.edu.co",
+      "-"
+    ],
+    "abst": "Se analiza la interacción de cargas eléctricas con campos magnéticos en el contexto de la aplicación tecnológica del espectrómetro de masas.",
+    "icon": "resources/logos/Sim_MS_400x400.jpg"
+  },
+  "simIsMo": {
+    "path": "/simulaciones-fisica/IsingModel",
+    "title": "Materiales en el Modelo Ising",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2022_1/IsingModel/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2022_1/IsingModel/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2022_1/IsingModel/act.pdf&embedded=true",
+    "author": ["Daniela Andrea Torres Gómez", "Sergio Duque Mejía", "-"],
+    "email": ["dandrea.torres@udea.edu.co", "sergio.duquem@udea.edu.co", "-"],
+    "abst": "Estudio del comportamiento del promedio de magnetización cuando varía la temperatura para materiales con propiedades ferromagnéticas, paramagnéticas y anti-ferromagnéticas utilizando el modelo simplificado de Ising.",
+    "icon": "resources/logos/Sim_IM_400x400.png"
+  },
+  "simFiCh": {
+    "path": "/simulaciones-fisica/FieldCharge",
+    "title": "Partícula en campo EM",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2022_1/FieldCharge/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2022_1/FieldCharge/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2022_1/FieldCharge/act.pdf&embedded=true",
+    "author": ["Samuel Hoyos", "Esteban Marulanda", "Carlos Granada"],
+    "email": [
+      "samuel.hoyos@udea.edu.co",
+      "esteban.marulandaa@udea.edu.co",
+      "candres.granada@udea.edu.co"
+    ],
+    "abst": "Se simula el movimiento de una partícula cargada inmersa en un campo electromagnético. Se puede escoger el plano de visualización y se grafica el movimiento.",
+    "icon": "resources/logos/Sim_FC_400x400.jpg"
+  },
+  "simBoDr": {
+    "path": "/simulaciones-fisica/BodyDrop",
+    "title": "Cuerpos rígidos rodando",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2022_1/BodyDrop/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2022_1/BodyDrop/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2022_1/BodyDrop/act.pdf&embedded=true",
+    "author": ["Edwin Dair Zapata", "Andres Felipe Gomez", "-"],
+    "email": ["dair.zapata@udea.edu.co", "andres.gomez29@udea.edu.co", "-"],
+    "abst": "La simulación consiste en 4 cuerpos rígidos rondando por un plano inclinado, él objetivo es entender porqué un objeto en particular gana la carrera.",
+    "icon": "resources/logos/Sim_BD_400x400.jpg"
+  },
+  "simDoOs20231": {
+    "path": "/simulaciones-fisica/DoubleOscillator20231",
+    "title": "Caos en péndulo doble",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_1/DoubleOscillator/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/DoubleOscillator/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/DoubleOscillator/act.pdf&embedded=true",
+    "author": ["Maria José Domínguez", "-", "-"],
+    "email": ["mjose.dominguez@udea.edu.co", "-", "-"],
+    "abst": "Simulación que brinda una representación dinámica del péndulo doble, su espacio de fase y las figuras de Lissajous, revelando su complejidad y comportamiento caótico.",
+    "icon": "resources/logos/Sim_DO20231_400x400.png"
+  },
+  "simFlMo20231": {
+    "path": "/simulaciones-fisica/FluidMovement20231",
+    "title": "Movimiento de cuerpos en fluidos",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_1/FluidsMovement/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/FluidsMovement/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/FluidsMovement/act.pdf&embedded=true",
+    "author": ["Jacobo Parodi Díez", "-", "-"],
+    "email": ["jacobo.parodi@udea.edu.co", "-", "-"],
+    "abst": "Esta simulación describe el comportamiento de cuerpos sometidos a las fuerzas que puede ejercer un fluido sobre él como el empuje o el arrastre.",
+    "icon": "resources/logos/Sim_FM20231_400x400.png"
+  },
+  "simPaLa20231": {
+    "path": "/simulaciones-fisica/ParabolicLaunch20231",
+    "title": "Proyectil en el sistema solar",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_1/ParabolicLaunch/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/ParabolicLaunch/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/ParabolicLaunch/act.pdf&embedded=true",
+    "author": ["Juan Pablo Ortiz", "Samuel Quitian", "Waira Murillo"],
+    "email": [
+      "juanp.ortiz@udea.edu.co",
+      "samuel.quitiang@udea.edu.co",
+      "waira.murillo@udea.edu.co"
+    ],
+    "abst": "Simulación Tiro parabólico en diferentes planetas, se estudia las componentes vectoriales del movimiento, velocidad y ángulo iniciales, variación masa, rozamiento y variación de la gravedad.",
+    "icon": "resources/logos/Sim_PL20231_400x400.jpg"
+  },
+  "simRiPe20231": {
+    "path": "/simulaciones-fisica/RigidPendulum20231",
+    "title": "Péndulo doble rígido",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_1/RigidPendulum/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/RigidPendulum/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/RigidPendulum/act.pdf&embedded=true",
+    "author": ["Kevin Cortés", "Samuel Vasco", "-"],
+    "email": ["kevin.cortes@udea.edu.co", "samuel.vasco@udea.edu.co", "-"],
+    "abst": "Se presenta una simulación de un péndulo doble compuesto por cuerpos rígidos con distribución de masas uniforme.",
+    "icon": "resources/logos/Sim_RP20231_400x400.png"
+  },
+  "simIsMa20231": {
+    "path": "/simulaciones-fisica/IssingMagnetic20231",
+    "title": "Modelo de ising magnético",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_1/IssingMagnetic/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/IssingMagnetic/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/IssingMagnetic/act.pdf&embedded=true",
+    "author": [
+      "David Andrés Pedroza",
+      "Sebastian Saavedra Patiño",
+      "Jordan Hernandez Daza"
+    ],
+    "email": [
+      "david.pedroza@udea.edu.co",
+      "wilfredo.saavedra@udea.edu.co",
+      "jordan.hernandez@udea.edu.co"
+    ],
+    "abst": "El modelo de Ising es un modelo físico que describe la interacción entre espines en una red, útil para estudiar fenómenos magnéticos.",
+    "icon": "resources/logos/Sim_IM20231_400x400.jpg"
+  },
+  "simHyAt20231": {
+    "path": "/simulaciones-fisica/HydrogenAtom20231",
+    "title": "Orbitales del átomo de Hidrógeno",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_1/HydrogenAtom/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/HydrogenAtom/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_1/HydrogenAtom/act.pdf&embedded=true",
+    "author": [
+      "Cristian David Gutiérrez",
+      "Joseph Nicolay Ruiz",
+      "Sergio Castrillón"
+    ],
+    "email": [
+      "cdavid.gutierrez@udea.edu.co",
+      "joseph.ruiz@udea.edu.co",
+      "sergio.castrillons@udea.edu.co"
+    ],
+    "abst": "Presentación de una visualización espacial de las soluciones de la ecuación de Schrödinger aplicada al átomo de hidrógeno.",
+    "icon": "resources/logos/Sim_HA20231_400x400.png"
+  },
+  "simQuAr20232": {
+    "path": "/simulaciones-fisica/QuantumArmonic20232",
+    "title": "Oscilador Armónico Cuántico",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_2/QuantumArmonic/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_2/QuantumArmonic/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_2/QuantumArmonic/act.pdf&embedded=true",
+    "author": [
+      "Jonathan Posada Loaiza",
+      "Luis Miguel Galvis Elizalde",
+      "Laura Sofía Arango Tabares"
+    ],
+    "email": [
+      "jonathan.posada1@udea.edu.co",
+      "miguel.galvis@udea.edu.co",
+      "laura.arangot@udea.edu.co"
+    ],
+    "abst": "Esta simulación permite visualizar las funciones de onda para el oscilador armónico cuántico, sus módulos cuadrados y la evolución temporal de su parte real.",
+    "icon": "resources/logos/Sim_QA20232_400x400.png"
+  },
+  "simPiOs20232": {
+    "path": "/simulaciones-fisica/PipeOscillator20232",
+    "title": "Ondas Estacionarias en Tubos",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_2/PipeOscillator/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_2/PipeOscillator/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_2/PipeOscillator/act.pdf&embedded=true",
+    "author": ["Gustavo Castrillón Yepes", "Ana María Correa Castrillón", "-"],
+    "email": ["gadolfo.castrillon@udea.edu.co", "ana.correa3@udea.edu.co", "-"],
+    "abst": "Simulación con tres tipos de tubos muestra el comportamiento del aire y la formación de nodos/antinodos según la frecuencia de vibración.",
+    "icon": "resources/logos/Sim_PO20232_400x400.png"
+  },
+  "simGaDi20232": {
+    "path": "/simulaciones-fisica/GasDiffusion20232",
+    "title": "Difusión de gases",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_2/GasDiffusion/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_2/GasDiffusion/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_2/GasDiffusion/act.pdf&embedded=true",
+    "author": ["Santiago Ruiz Piedrahita", "-", "-"],
+    "email": ["santiago.ruizp@udea.edu.co", "-", "-"],
+    "abst": "Este código simula la dispersión de gases en dos cajas separadas por una línea divisoria controlando partículas con diferentes características.",
+    "icon": "resources/logos/Sim_GD20232_400x400.png"
+  },
+  "simRaDe20232": {
+    "path": "/simulaciones-fisica/RadioactiveDecay20232",
+    "title": "Decaimiento radioactivo de elementos",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2023_2/RadioactiveDecay/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_2/RadioactiveDecay/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2023_2/RadioactiveDecay/act.pdf&embedded=true",
+    "author": [
+      "Simón González Gómez",
+      "José Luis Builes Canchala",
+      "Santiago Galvis Duque"
+    ],
+    "email": [
+      "simon.gonzalezg1@udea.edu.co",
+      "jose.builesc@udea.edu.co",
+      "santiago.galvis@udea.edu.co"
+    ],
+    "abst": "La simulación presenta dos elementos en decaimiento, visualizando la desintegración de la cantidad de átomos en el tiempo y con la posibilidad de modificar parámetros.",
+    "icon": "resources/logos/Sim_RD20232_400x400.jpeg"
+  },
+  "simChPa20241": {
+    "path": "/simulaciones-fisica/ChargedParticle20241",
+    "title": "Dinámica de partículas cargadas",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2024_1/ChargeParticles/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_1/ChargeParticles/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_1/ChargeParticles/act.pdf&embedded=true",
+    "author": ["Manolo Cardona Menco", "Dany Durango Escobar", "-"],
+    "email": ["manolo.cardona@udea.edu.co", "dany.durangoe@udea.edu.co", "-"],
+    "abst": "Trayectorias de cargas el ́ectricamente cargadas en interacci ́on con un campo el ́ectrico constante.",
+    "icon": "resources/logos/Sim_CP20241_400x400.png"
+  },
+  "simDoSl20241": {
+    "path": "/simulaciones-fisica/DoubleSlit20241",
+    "title": "Experimento Doble Rendija",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2024_1/DoubleSlit/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_1/DoubleSlit/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_1/DoubleSlit/act.pdf&embedded=true",
+    "author": [
+      "Santiago Moreno Gonzalez",
+      "Alejandra Echeverri",
+      "Juan Esteban Ospina Holguin"
+    ],
+    "email": [
+      "santiago.moreno5@udea.edu.co",
+      "alejandra.echeverri3@udea.edu.co",
+      "juan.ospina25@udea.edu.co"
+    ],
+    "abst": "La simulación visualiza el experimento de la doble rendija, mostrando la dualidad onda particula mediante sliders y activación de detectores.",
+    "icon": "resources/logos/Sim_DS20241_400x400.jpg"
+  },
+  "simNuRe20241": {
+    "path": "/simulaciones-fisica/NuclearReaction20241",
+    "title": "Reacción Nuclear en cadena",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2024_1/NuclearReaction/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_1/NuclearReaction/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_1/NuclearReaction/act.pdf&embedded=true",
+    "author": [
+      "Juan Manuel Albarracin Herrera",
+      "Santiago Ramirez Puentes",
+      "-"
+    ],
+    "email": [
+      "manuel.albarracin@udea.edu.co",
+      "santiago.ramirez28@udea.edu.co",
+      "-"
+    ],
+    "abst": "El programa muestra una reacción nuclear en cadena: un neutrón impacta uranio-235, liberando neutrones que desestabilizan más núcleos, generando energía abundante.",
+    "icon": "resources/logos/Sim_NR20241_400x400.jpg"
+  },
+  "simPeMa20241": {
+    "path": "/simulaciones-fisica/PedagogicMachine20241",
+    "title": "Maquina pedagógica",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2024_1/PedagogicMachine/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_1/PedagogicMachine/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_1/PedagogicMachine/act.pdf&embedded=true",
+    "author": ["German Torres Arroyave", "Sebastian Diaz Granados Cano", "-"],
+    "email": [
+      "german.torres@udea.edu.co",
+      "sdiazgranados.cano@udea.edu.co",
+      "-"
+    ],
+    "abst": "La invención de poleas le permitió al ser humano transformar la manera de transferir fuerza. Veamos que tipo de fenómenos surgen a partir de ellas.",
+    "icon": "resources/logos/Sim_PM20241_400x400.jpeg"
+  },
+  "simTuEf20241": {
+    "path": "/simulaciones-fisica/TunnelEffect20241",
+    "title": "Efecto Túnel",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2024_1/TunnelEffect/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_1/TunnelEffect/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_1/TunnelEffect/act.pdf&embedded=true",
+    "author": ["Juan Felipe Castello Arango", "-", "-"],
+    "email": ["juan.castello@udea.edu.co", "-", "-"],
+    "abst": "Solución gráfica, interactiva y animada a la ecuación de Schrödinger para una partícula que choca contra una barrera de potencial, presentando el fenómeno del tunelamiento cuántico.",
+    "icon": "resources/logos/Sim_TE20241_400x400.jpg"
+  },
 
-    "sim01": {
-        "path": "/simulaciones-fisica/simul_01",
-        "title": "Gravitación universal",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/examples/SolarSystem/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/examples/SolarSystem/Theory.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/examples/SolarSystem/Activity.pdf&embedded=true",
-        "author": ["Fabian Castaño", "Jaime Osorio", "Jose Ruiz"],
-        "email": [
-            "email_01@email.com",
-            "email_02@email.com",
-            "email_03@email.com"
-        ],
-        "abst": "Breve descripción acerca del simulador de gravitación universal. Se presenta un sistema estrella planetas en interacción gravitacional para mostrar el comportamiento de los cuerpos celestes.",
-        "icon": "resources/logos/Sim_01_400x400.jpg"
-    },
-    "sim02": {
-        "path": "/simulaciones-fisica/simul_02",
-        "title": "Colisión de partículas",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/examples/ParticleCollision/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/examples/SolarSystem/Theory.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/examples/SolarSystem/Activity.pdf&embedded=true",
-        "author": ["Jaime Osorio", "Fabian Castaño", "Jose Ruiz"],
-        "email": [
-            "email_02@email.com",
-            "email_01@email.com",
-            "email_03@email.com"
-        ],
-        "abst": "Breve descripción acerca del simulador de colisión de partículas",
-        "icon": "resources/logos/Sim_02_400x400.jpg"
-    },
-    "sim03": {
-        "path": "/simulaciones-fisica/simul_03",
-        "title": "Figuras de lissajous",
-        "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/examples/Controls/sketch.js",
-        "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/examples/SolarSystem/Theory.pdf&embedded=true",
-        "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/examples/SolarSystem/Activity.pdf&embedded=true",
-        "author": ["Jose Ruiz", "Jaime Osorio", "Fabian Castaño"],
-        "email": [
-            "email_03@email.com",
-            "email_01@email.com",
-            "email_02@email.com"
-        ],
-        "abst": "Breve descripción acerca del simulador de figuras de lissajous",
-        "icon": "resources/logos/Sim_03_400x400.jpg"
-    }
+  "sim01": {
+    "path": "/simulaciones-fisica/simul_01",
+    "title": "Gravitación universal",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/examples/SolarSystem/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/examples/SolarSystem/Theory.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/examples/SolarSystem/Activity.pdf&embedded=true",
+    "author": ["Fabian Castaño", "Jaime Osorio", "Jose Ruiz"],
+    "email": ["email_01@email.com", "email_02@email.com", "email_03@email.com"],
+    "abst": "Breve descripción acerca del simulador de gravitación universal. Se presenta un sistema estrella planetas en interacción gravitacional para mostrar el comportamiento de los cuerpos celestes.",
+    "icon": "resources/logos/Sim_01_400x400.jpg"
+  },
+  "sim02": {
+    "path": "/simulaciones-fisica/simul_02",
+    "title": "Colisión de partículas",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/examples/ParticleCollision/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/examples/SolarSystem/Theory.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/examples/SolarSystem/Activity.pdf&embedded=true",
+    "author": ["Jaime Osorio", "Fabian Castaño", "Jose Ruiz"],
+    "email": ["email_02@email.com", "email_01@email.com", "email_03@email.com"],
+    "abst": "Breve descripción acerca del simulador de colisión de partículas",
+    "icon": "resources/logos/Sim_02_400x400.jpg"
+  },
+  "sim03": {
+    "path": "/simulaciones-fisica/simul_03",
+    "title": "Figuras de lissajous",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/examples/Controls/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/examples/SolarSystem/Theory.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/examples/SolarSystem/Activity.pdf&embedded=true",
+    "author": ["Jose Ruiz", "Jaime Osorio", "Fabian Castaño"],
+    "email": ["email_03@email.com", "email_01@email.com", "email_02@email.com"],
+    "abst": "Breve descripción acerca del simulador de figuras de lissajous",
+    "icon": "resources/logos/Sim_03_400x400.jpg"
+  }
 }

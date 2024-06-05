@@ -16,6 +16,15 @@ export default function SimModern() {
           <div className="Simulators-pane">
             <div className="SimButton">
               <SimDescriptor
+                buttonLabel="Simulacion TE_20241"
+                pathUrl={dataSim.simTuEf20241.path}
+                imgDir={dataSim.simTuEf20241.icon}
+                title={dataSim.simTuEf20241.title}
+                abstract={dataSim.simTuEf20241.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
                 buttonLabel="Simulacion BB"
                 pathUrl={dataSim.simBlBo.path}
                 imgDir={dataSim.simBlBo.icon}
@@ -37,6 +46,15 @@ export default function SimModern() {
 
         <div className="SimFrame">
           <div className="Simulators-pane">
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion NR_20241"
+                pathUrl={dataSim.simNuRe20241.path}
+                imgDir={dataSim.simNuRe20241.icon}
+                title={dataSim.simNuRe20241.title}
+                abstract={dataSim.simNuRe20241.abst}
+              />
+            </div>
             <div className="SimButton">
               <SimDescriptor
                 buttonLabel="Simulacion HA_20231"

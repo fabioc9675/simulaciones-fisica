@@ -149,6 +149,51 @@ export default function SimEverything() {
                 abstract={dataSim.simIsMa20231.abst}
               />
             </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion PC_2024_1"
+                pathUrl={dataSim.simChPa20241.path}
+                imgDir={dataSim.simChPa20241.icon}
+                title={dataSim.simChPa20241.title}
+                abstract={dataSim.simChPa20241.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion DS_20241"
+                pathUrl={dataSim.simDoSl20241.path}
+                imgDir={dataSim.simDoSl20241.icon}
+                title={dataSim.simDoSl20241.title}
+                abstract={dataSim.simDoSl20241.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion NR_20241"
+                pathUrl={dataSim.simNuRe20241.path}
+                imgDir={dataSim.simNuRe20241.icon}
+                title={dataSim.simNuRe20241.title}
+                abstract={dataSim.simNuRe20241.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion TE_20241"
+                pathUrl={dataSim.simTuEf20241.path}
+                imgDir={dataSim.simTuEf20241.icon}
+                title={dataSim.simTuEf20241.title}
+                abstract={dataSim.simTuEf20241.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion PM_20241"
+                pathUrl={dataSim.simPeMa20241.path}
+                imgDir={dataSim.simPeMa20241.icon}
+                title={dataSim.simPeMa20241.title}
+                abstract={dataSim.simPeMa20241.abst}
+              />
+            </div>
           </div>
         </div>
 
