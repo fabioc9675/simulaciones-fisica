@@ -354,7 +354,7 @@
     "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_1/ChargeParticles/act.pdf&embedded=true",
     "author": ["Manolo Cardona Menco", "Dany Durango Escobar", "-"],
     "email": ["manolo.cardona@udea.edu.co", "dany.durangoe@udea.edu.co", "-"],
-    "abst": "Trayectorias de cargas el ́ectricamente cargadas en interacci ́on con un campo el ́ectrico constante.",
+    "abst": "La siguiente simulación recrea la cinemática de tres tipos de partículas al atravesar un campo eléctrico constante. Los parámetros pueden ser variados para observar las diferencias en sus trayectorias.",
     "icon": "resources/logos/Sim_CP20241_400x400.png"
   },
   "simDoSl20241": {
