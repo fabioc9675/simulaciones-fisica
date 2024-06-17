@@ -421,6 +421,21 @@
     "abst": "Solución gráfica, interactiva y animada a la ecuación de Schrödinger para una partícula que choca contra una barrera de potencial, presentando el fenómeno del tunelamiento cuántico.",
     "icon": "resources/logos/Sim_TE20241_400x400.jpg"
   },
+  "simMaIn20241": {
+    "path": "/simulaciones-fisica/MagneticInduction20241",
+    "title": "Inducción Magnética",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2024_1/MagneticInduction/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_1/MagneticInduction/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_1/MagneticInduction/act.pdf&embedded=true",
+    "author": ["Miller Joel Gordo", "Anderson Uribe Pino", "Vanessa Martínez"],
+    "email": [
+      "miller.gordo@udea.edu.co",
+      "anderson.uribe1@udea.edu.co",
+      "vanessa.martinez1@udea.edu.co"
+    ],
+    "abst": "Simulación que representa la inducción magnética probocada por el movimiento de un iman en unas bobinas.",
+    "icon": "resources/logos/Sim_MI20241_400x400.jpg"
+  },
 
   "sim01": {
     "path": "/simulaciones-fisica/simul_01",

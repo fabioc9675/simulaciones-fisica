@@ -194,6 +194,15 @@ export default function SimEverything() {
                 abstract={dataSim.simPeMa20241.abst}
               />
             </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion MI"
+                pathUrl={dataSim.simMaIn20241.path}
+                imgDir={dataSim.simMaIn20241.icon}
+                title={dataSim.simMaIn20241.title}
+                abstract={dataSim.simMaIn20241.abst}
+              />
+            </div>
           </div>
         </div>
 
