@@ -487,7 +487,7 @@ export default function App() {
           <Route
             forceRefresh={true}
             exact
-            path={dataSim.simMaIn20241.path}
+            path={dataSim.simTiDi20241.path}
             component={() => (
               <SimFrame
                 paneTitle={dataSim.simTiDi20241.title}
