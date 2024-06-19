@@ -436,6 +436,25 @@
     "abst": "Simulación que representa la inducción magnética probocada por el movimiento de un iman en unas bobinas.",
     "icon": "resources/logos/Sim_MI20241_400x400.jpg"
   },
+  "simTiDi20241": {
+    "path": "/simulaciones-fisica/TimeDilation20241",
+    "title": "Dilatación temporal",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2024_1/TimeDilation/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_1/TimeDilation/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_1/TimeDilation/act.pdf&embedded=true",
+    "author": [
+      "Fabián Yamith Tovar",
+      "Alejandro Valencia Ossa",
+      "Emmanuel Sánchez Vásquez"
+    ],
+    "email": [
+      "fyamith.tovar@udea.edu.co",
+      "alejandro.valenciao1@udea.edu.co",
+      "emmanuel.sanchezv@udea.edu.co"
+    ],
+    "abst": "Simulación que muestra la dilatación temporal que sufre un sistema de referencia inercial con una velocidad respecto a otro sistema en reposo",
+    "icon": "resources/logos/Sim_TD20241_400x400.jpg"
+  },
 
   "sim01": {
     "path": "/simulaciones-fisica/simul_01",
