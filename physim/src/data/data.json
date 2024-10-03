@@ -455,6 +455,25 @@
     "abst": "Simulación que muestra la dilatación temporal que sufre un sistema de referencia inercial con una velocidad respecto a otro sistema en reposo",
     "icon": "resources/logos/Sim_TD20241_400x400.jpg"
   },
+  "simAtSp20241": {
+    "path": "/simulaciones-fisica/AtomicSpectrum20241",
+    "title": "Espectros atómicos",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2024_1/AtomicSpectroscopy/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_1/AtomicSpectroscopy/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_1/AtomicSpectroscopy/act.pdf&embedded=true",
+    "author": [
+      "Laura Alvarez Ramirez",
+      "Alejandro López Cano",
+      "Sebastián Moreno Parra"
+    ],
+    "email": [
+      "laura.alvarezr@udea.edu.co",
+      "alejandro.lopez14@udea.edu.co",
+      "sebastian.morenop@udea.edu.co"
+    ],
+    "abst": "Simulación que muestra la espectrometría óptica de algunas lamparas de gases monoatómicos para evaluar la huella dactilar de cada elemento químico",
+    "icon": "resources/logos/Sim_AS20241_400x400.png"
+  },
 
   "sim01": {
     "path": "/simulaciones-fisica/simul_01",
