@@ -39,6 +39,15 @@ export default function SimTermo() {
           <div className="Simulators-pane">
             <div className="SimButton">
               <SimDescriptor
+                buttonLabel="Simulacion CC_20242"
+                pathUrl={dataSim.simCiCa20242.path}
+                imgDir={dataSim.simCiCa20242.icon}
+                title={dataSim.simCiCa20242.title}
+                abstract={dataSim.simCiCa20242.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
                 buttonLabel="Simulacion LV"
                 pathUrl={dataSim.simLoVo.path}
                 imgDir={dataSim.simLoVo.icon}

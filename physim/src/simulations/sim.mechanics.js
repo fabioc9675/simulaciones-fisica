@@ -57,6 +57,15 @@ export default function SimMechanics() {
           <div className="Simulators-pane">
             <div className="SimButton">
               <SimDescriptor
+                buttonLabel="Simulacion TB_20242"
+                pathUrl={dataSim.simThBo20242.path}
+                imgDir={dataSim.simThBo20242.icon}
+                title={dataSim.simThBo20242.title}
+                abstract={dataSim.simThBo20242.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
                 buttonLabel="Simulacion EC"
                 pathUrl={dataSim.simEnCo.path}
                 imgDir={dataSim.simEnCo.icon}

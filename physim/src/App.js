@@ -514,6 +514,96 @@ export default function App() {
               />
             )}
           />
+          <Route
+            forceRefresh={true}
+            exact
+            path={dataSim.simCiCa20242.path}
+            component={() => (
+              <SimFrame
+                paneTitle={dataSim.simCiCa20242.title}
+                url={dataSim.simCiCa20242.url}
+                doc={dataSim.simCiCa20242.doc}
+                act={dataSim.simCiCa20242.act}
+                author={dataSim.simCiCa20242.author}
+                email={dataSim.simCiCa20242.email}
+              />
+            )}
+          />
+          <Route
+            forceRefresh={true}
+            exact
+            path={dataSim.simCoOs20242.path}
+            component={() => (
+              <SimFrame
+                paneTitle={dataSim.simCoOs20242.title}
+                url={dataSim.simCoOs20242.url}
+                doc={dataSim.simCoOs20242.doc}
+                act={dataSim.simCoOs20242.act}
+                author={dataSim.simCoOs20242.author}
+                email={dataSim.simCoOs20242.email}
+              />
+            )}
+          />
+          <Route
+            forceRefresh={true}
+            exact
+            path={dataSim.simCyMo20242.path}
+            component={() => (
+              <SimFrame
+                paneTitle={dataSim.simCyMo20242.title}
+                url={dataSim.simCyMo20242.url}
+                doc={dataSim.simCyMo20242.doc}
+                act={dataSim.simCyMo20242.act}
+                author={dataSim.simCyMo20242.author}
+                email={dataSim.simCyMo20242.email}
+              />
+            )}
+          />
+          <Route
+            forceRefresh={true}
+            exact
+            path={dataSim.simInMz20242.path}
+            component={() => (
+              <SimFrame
+                paneTitle={dataSim.simInMz20242.title}
+                url={dataSim.simInMz20242.url}
+                doc={dataSim.simInMz20242.doc}
+                act={dataSim.simInMz20242.act}
+                author={dataSim.simInMz20242.author}
+                email={dataSim.simInMz20242.email}
+              />
+            )}
+          />
+          <Route
+            forceRefresh={true}
+            exact
+            path={dataSim.simJaCu20242.path}
+            component={() => (
+              <SimFrame
+                paneTitle={dataSim.simJaCu20242.title}
+                url={dataSim.simJaCu20242.url}
+                doc={dataSim.simJaCu20242.doc}
+                act={dataSim.simJaCu20242.act}
+                author={dataSim.simJaCu20242.author}
+                email={dataSim.simJaCu20242.email}
+              />
+            )}
+          />
+          <Route
+            forceRefresh={true}
+            exact
+            path={dataSim.simThBo20242.path}
+            component={() => (
+              <SimFrame
+                paneTitle={dataSim.simThBo20242.title}
+                url={dataSim.simThBo20242.url}
+                doc={dataSim.simThBo20242.doc}
+                act={dataSim.simThBo20242.act}
+                author={dataSim.simThBo20242.author}
+                email={dataSim.simThBo20242.email}
+              />
+            )}
+          />
 
           <Route
             forceRefresh={true}

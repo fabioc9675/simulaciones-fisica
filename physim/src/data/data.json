@@ -474,6 +474,100 @@
     "abst": "Simulación que muestra la espectrometría óptica de algunas lamparas de gases monoatómicos para evaluar la huella dactilar de cada elemento químico",
     "icon": "resources/logos/Sim_AS20241_400x400.png"
   },
+  "simCiCa20242": {
+    "path": "/simulaciones-fisica/CircularChaos20242",
+    "title": "Sistema caótico circular",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2024_2/CircularChaos/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_2/CircularChaos/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_2/CircularChaos/act.pdf&embedded=true",
+    "author": ["Josué Daniel Jaramillo Arroyave", "-", "-"],
+    "email": ["josue.jaramillo@udea.edu.co", "-", "-"],
+    "abst": "De un sistema simple como lo es una pelota cayendo bajo la acción de la gravedad dentro de una circunferencia se puede apreciar el caos",
+    "icon": "resources/logos/Sim_CC20242_400x400.png"
+  },
+  "simCoOs20242": {
+    "path": "/simulaciones-fisica/CoupledOscillator20242",
+    "title": "Sistema de N Osciladores Acoplados",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2024_2/CoupledOscillators/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_2/CoupledOscillators/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_2/CoupledOscillators/act.pdf&embedded=true",
+    "author": ["David Vázquez", "Caterine Bedoya", "Jhonatan Jurado"],
+    "email": [
+      "david.vasquez4@udea.edu.co",
+      "caterine.bedoyab@udea.edu.co",
+      "jhonatan.jurado@udea.edu.co"
+    ],
+    "abst": "Simulación interactiva de osciladores acoplados con N cuerpos, permitiendo ajustar parámetros, analizar frecuencias normales y visualizar en tiempo real sus modos de vibración",
+    "icon": "resources/logos/Sim_CO20242_400x400.png"
+  },
+  "simCyMo20242": {
+    "path": "/simulaciones-fisica/CyclotronModel20242",
+    "title": "Simulación Acelerador Ciclotrón",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2024_2/CyclotronModel/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_2/CyclotronModel/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_2/CyclotronModel/act.pdf&embedded=true",
+    "author": [
+      "Juan Sebastián Sánchez Guarnizo",
+      "Daniel Valle Jaramillo",
+      "Jamir Moreno Salazar"
+    ],
+    "email": [
+      "jsebastian.sanchez@udea.edu.co",
+      "daniel.vallej@udea.edu.co",
+      "jamir.morenos@udea.edu.co"
+    ],
+    "abst": "Visualización y análisis del movimiento de una partícula en un ciclotrón, explorando su dinámica caracterizada por frecuencia y radio ciclotrónicos, dependientes de parámetros físicos y campos aplicados.",
+    "icon": "resources/logos/Sim_CM20242_400x400.png"
+  },
+  "simInMz20242": {
+    "path": "/simulaciones-fisica/InterferometerMz20242",
+    "title": "Interferómetro de Mach Zehnder",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2024_2/InterferometerMz/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_2/InterferometerMz/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_2/InterferometerMz/act.pdf&embedded=true",
+    "author": [
+      "Yennifer Yuliana Guerrero Uchima",
+      "Fernanda Mora Rey",
+      "Dayana Andrea Henao Arbeláez"
+    ],
+    "email": [
+      "yuliana.guerrero@udea.edu.co",
+      "fernanda.morar@udea.edu.co",
+      "dayana.henaoa@udea.edu.co"
+    ],
+    "abst": "La simulación muestra cómo el interferómetro de Mach-Zehnder determina el estado de una bomba de Elitzur-Vaidman sin interacción directa, visualizando el comportamiento cuántico de un fotón.",
+    "icon": "resources/logos/Sim_IM20242_400x400.jpg"
+  },
+  "simJaCu20242": {
+    "path": "/simulaciones-fisica/JaynesCummings20242",
+    "title": "Simulación Jaynes-Cummings",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2024_2/JaynesCummings/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_2/JaynesCummings/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_2/JaynesCummings/act.pdf&embedded=true",
+    "author": [
+      "Mario José Félix Rojas",
+      "Juan Pablo Montoya Rojas",
+      "Esneider Velez Peña"
+    ],
+    "email": [
+      "mario.felix@udea.edu.co",
+      "juan.montoya102@udea.edu.co",
+      "esneider.velezp@udea.edu.co"
+    ],
+    "abst": "La simulación permite visualizar la inversión de poblaciones W(t) en función del tiempo, con un átomo y un fotón en resonancia, observándose oscilaciones de Rabi.",
+    "icon": "resources/logos/Sim_JC20242_400x400.png"
+  },
+  "simThBo20242": {
+    "path": "/simulaciones-fisica/ThreeBody20242",
+    "title": "Problema de los trés cuerpos",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2024_2/ThreeBody/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_2/ThreeBody/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2024_2/ThreeBody/act.pdf&embedded=true",
+    "author": ["Camilo Gómez Zapata", "-", "-"],
+    "email": ["camilo.gomez9@udea.edu.co", "-", "-"],
+    "abst": "Esta simulación interactiva modela sistemas planetarios con física gravitacional real, permitiendo visualizar órbitas, trayectorias y datos posicionales de cuerpos celestes.",
+    "icon": "resources/logos/Sim_TB20242_400x400.png"
+  },
 
   "sim01": {
     "path": "/simulaciones-fisica/simul_01",
@@ -481,7 +575,7 @@
     "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/examples/SolarSystem/sketch.js",
     "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/examples/SolarSystem/Theory.pdf&embedded=true",
     "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/examples/SolarSystem/Activity.pdf&embedded=true",
-    "author": ["Fabian Castaño", "Jaime Osorio", "Jose Ruiz"],
+    "author": ["Fabian Castaño", "Jaime Osorio", "-"],
     "email": ["email_01@email.com", "email_02@email.com", "email_03@email.com"],
     "abst": "Breve descripción acerca del simulador de gravitación universal. Se presenta un sistema estrella planetas en interacción gravitacional para mostrar el comportamiento de los cuerpos celestes.",
     "icon": "resources/logos/Sim_01_400x400.jpg"
@@ -492,7 +586,7 @@
     "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/examples/ParticleCollision/sketch.js",
     "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/examples/SolarSystem/Theory.pdf&embedded=true",
     "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/examples/SolarSystem/Activity.pdf&embedded=true",
-    "author": ["Jaime Osorio", "Fabian Castaño", "Jose Ruiz"],
+    "author": ["Jaime Osorio", "Fabian Castaño", "-"],
     "email": ["email_02@email.com", "email_01@email.com", "email_03@email.com"],
     "abst": "Breve descripción acerca del simulador de colisión de partículas",
     "icon": "resources/logos/Sim_02_400x400.jpg"
@@ -503,7 +597,7 @@
     "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/examples/Controls/sketch.js",
     "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/examples/SolarSystem/Theory.pdf&embedded=true",
     "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/examples/SolarSystem/Activity.pdf&embedded=true",
-    "author": ["Jose Ruiz", "Jaime Osorio", "Fabian Castaño"],
+    "author": ["Juan Marcos Marín", "Jaime Osorio", "Fabian Castaño"],
     "email": ["email_03@email.com", "email_01@email.com", "email_02@email.com"],
     "abst": "Breve descripción acerca del simulador de figuras de lissajous",
     "icon": "resources/logos/Sim_03_400x400.jpg"

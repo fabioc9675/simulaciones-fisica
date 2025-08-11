@@ -57,6 +57,15 @@ export default function SimModern() {
           <div className="Simulators-pane">
             <div className="SimButton">
               <SimDescriptor
+                buttonLabel="Simulacion JC_20242"
+                pathUrl={dataSim.simJaCu20242.path}
+                imgDir={dataSim.simJaCu20242.icon}
+                title={dataSim.simJaCu20242.title}
+                abstract={dataSim.simJaCu20242.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
                 buttonLabel="Simulacion TE_20241"
                 pathUrl={dataSim.simTuEf20241.path}
                 imgDir={dataSim.simTuEf20241.icon}

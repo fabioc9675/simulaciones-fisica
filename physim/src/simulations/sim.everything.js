@@ -316,6 +316,60 @@ export default function SimEverything() {
                 abstract={dataSim.simRaDe20232.abst}
               />
             </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion CC_20242"
+                pathUrl={dataSim.simCiCa20242.path}
+                imgDir={dataSim.simCiCa20242.icon}
+                title={dataSim.simCiCa20242.title}
+                abstract={dataSim.simCiCa20242.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion CO_20242"
+                pathUrl={dataSim.simCoOs20242.path}
+                imgDir={dataSim.simCoOs20242.icon}
+                title={dataSim.simCoOs20242.title}
+                abstract={dataSim.simCoOs20242.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion CM_20242"
+                pathUrl={dataSim.simCyMo20242.path}
+                imgDir={dataSim.simCyMo20242.icon}
+                title={dataSim.simCyMo20242.title}
+                abstract={dataSim.simCyMo20242.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion IM_20242"
+                pathUrl={dataSim.simInMz20242.path}
+                imgDir={dataSim.simInMz20242.icon}
+                title={dataSim.simInMz20242.title}
+                abstract={dataSim.simInMz20242.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion JC_20242"
+                pathUrl={dataSim.simJaCu20242.path}
+                imgDir={dataSim.simJaCu20242.icon}
+                title={dataSim.simJaCu20242.title}
+                abstract={dataSim.simJaCu20242.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion TB_20242"
+                pathUrl={dataSim.simThBo20242.path}
+                imgDir={dataSim.simThBo20242.icon}
+                title={dataSim.simThBo20242.title}
+                abstract={dataSim.simThBo20242.abst}
+              />
+            </div>
 
             <div className="SimButton">
               <SimDescriptor
