@@ -16,6 +16,15 @@ export default function SimTermo() {
           <div className="Simulators-pane">
             <div className="SimButton">
               <SimDescriptor
+                buttonLabel="Simulacion TC_20252"
+                pathUrl={dataSim.simThCo20252.path}
+                imgDir={dataSim.simThCo20252.icon}
+                title={dataSim.simThCo20252.title}
+                abstract={dataSim.simThCo20252.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
                 buttonLabel="Simulacion IG"
                 pathUrl={dataSim.simIdGa.path}
                 imgDir={dataSim.simIdGa.icon}
@@ -37,6 +46,15 @@ export default function SimTermo() {
 
         <div className="SimFrame">
           <div className="Simulators-pane">
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion SE_20251"
+                pathUrl={dataSim.simSiEa20251.path}
+                imgDir={dataSim.simSiEa20251.icon}
+                title={dataSim.simSiEa20251.title}
+                abstract={dataSim.simSiEa20251.abst}
+              />
+            </div>
             <div className="SimButton">
               <SimDescriptor
                 buttonLabel="Simulacion CC_20242"

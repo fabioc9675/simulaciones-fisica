@@ -57,6 +57,15 @@ export default function SimElectro() {
           <div className="Simulators-pane">
             <div className="SimButton">
               <SimDescriptor
+                buttonLabel="Simulacion PR_2025_1"
+                pathUrl={dataSim.simPoRa20251.path}
+                imgDir={dataSim.simPoRa20251.icon}
+                title={dataSim.simPoRa20251.title}
+                abstract={dataSim.simPoRa20251.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
                 buttonLabel="Simulacion MI"
                 pathUrl={dataSim.simMaIn20241.path}
                 imgDir={dataSim.simMaIn20241.icon}

@@ -568,7 +568,206 @@
     "abst": "Esta simulación interactiva modela sistemas planetarios con física gravitacional real, permitiendo visualizar órbitas, trayectorias y datos posicionales de cuerpos celestes.",
     "icon": "resources/logos/Sim_TB20242_400x400.png"
   },
-
+  "simOpGe20251": {
+    "path": "/simulaciones-fisica/Optics20251",
+    "title": "Simulador de Óptica de Geométrica",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2025_1/GeometricOptics/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2025_1/GeometricOptics/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2025_1/GeometricOptics/act.pdf&embedded=true",
+    "author": ["Salomé Osorio Muñoz", "Melissa Estrada Murillo", "-"],
+    "email": [
+      "salome.osoriom@udea.edu.co",
+      "melissa.estradam@udea.edu.co",
+      "-"
+    ],
+    "abst": "Simulador interactivo que visualiza formación de imágenes en lentes (convergentes/divergentes) y espejos (planos/cóncavos/convexos), mostrando trayectorias de rayos, posición, tamaño y tipo de imagen (real/virtual).",
+    "icon": "resources/logos/Sim_GO20251_400x400.png"
+  },
+  "simNuRe20251": {
+    "path": "/simulaciones-fisica/Reactor20251",
+    "title": "Reactor RBMK",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2025_1/NuclearReactor/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2025_1/NuclearReactor/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2025_1/NuclearReactor/act.pdf&embedded=true",
+    "author": [
+      "Juan Camilo Gallego Bedoya",
+      "Kevin Restrepo Tobón",
+      "Samuel Durán Bustamante"
+    ],
+    "email": [
+      "camilo.gallego1@udea.edu.co",
+      "kevin.restrepot@udea.edu.co",
+      "samuel.duran@udea.edu.co"
+    ],
+    "abst": "Se realiza la simulación de un reactor tipo RBMK usado en Chernóbil. Se modela la dinámica de neutrones y la reacción en cadena controlada por barras de control.",
+    "icon": "resources/logos/Sim_NR20251_400x400.png"
+  },
+  "simPeSo20251": {
+    "path": "/simulaciones-fisica/Peonsa20251",
+    "title": "Simulación general de un trompo",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2025_1/PeonsaSolution/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2025_1/PeonsaSolution/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2025_1/PeonsaSolution/act.pdf&embedded=true",
+    "author": ["Luciano Muñoz", "Juan David Salcedo", "-"],
+    "email": ["luciano.munoz1@udea.edu.co", "jdavid.salcedo@udea.edu.co", "-"],
+    "abst": "Simulación del movimiento de un trompo rígido con parámetros de definición arbitrarios controlados por el usuario.",
+    "icon": "resources/logos/Sim_PS20251_400x400.png"
+  },
+  "simPoRa20251": {
+    "path": "/simulaciones-fisica/ProbablyRay20251",
+    "title": "Generación Probabilistica de Rayos",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2025_1/ProbabilityRay/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2025_1/ProbabilityRay/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2025_1/ProbabilityRay/act.pdf&embedded=true",
+    "author": [
+      "Maria Alejandra Sánchez Calderón",
+      "Anna Sofía Giraldo Neira",
+      "-"
+    ],
+    "email": [
+      "alejandra.sanchez2@udea.edu.co",
+      "anna.giraldo@udea.edu.co",
+      "-"
+    ],
+    "abst": "Simulación interactiva que modela la formación de rayos según humedad, presión, temperatura y carga, mostrando probabilidad, campo eléctrico y visualización gráfica del fenómeno.",
+    "icon": "resources/logos/Sim_PR20251_400x400.png"
+  },
+  "simSiEa20251": {
+    "path": "/simulaciones-fisica/Siesmic20251",
+    "title": "Simulación de Terremotos en Edificios",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2025_1/SiesmicEarth/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2025_1/SiesmicEarth/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2025_1/SiesmicEarth/act.pdf&embedded=true",
+    "author": [
+      "José Luis Torres López",
+      "Julián Francisco Pinchao",
+      "Juan Esteban Berrío Salazar"
+    ],
+    "email": [
+      "jose.torresl@udea.edu.co",
+      "jfrancisco.pinchao@udea.edu.co",
+      "juan.berrios@udea.edu.co"
+    ],
+    "abst": "Simulación interactiva que muestra cómo diferentes edificios responden a un terremoto, indicando daño y tiempo de colapso.",
+    "icon": "resources/logos/Sim_SE20251_400x400.png"
+  },
+  "simSoFo20251": {
+    "path": "/simulaciones-fisica/Fourier20251",
+    "title": "Ondas y timbres musicales",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2025_1/SoundFourier/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2025_1/SoundFourier/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2025_1/SoundFourier/act.pdf&embedded=true",
+    "author": ["Emmanuel Botero Osorio", "Camilo Londoño Vera", "-"],
+    "email": [
+      "emmanuel.botero@udea.edu.co",
+      "camilo.londonov@udea.edu.co",
+      "-"
+    ],
+    "abst": "Simulación interactiva que combina ondas sonoras, timbres musicales y transformada de Fourier, permitiendo explorar armónicos, frecuencias y ejercicios didácticos en acústica.",
+    "icon": "resources/logos/Sim_SF20251_400x400.png"
+  },
+  "simCoSy20252": {
+    "path": "/simulaciones-fisica/ComplexSystem20252",
+    "title": "Atractor caótico de Rössler",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2025_2/ComplexSystems/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2025_2/ComplexSystems/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2025_2/ComplexSystems/act.pdf&embedded=true",
+    "author": ["Sara Alejandra Carvajal", "Ana María Arcila", "-"],
+    "email": ["saraa.carvajal@udea.edu.co", "ana.arcila1@udea.edu.co", "-"],
+    "abst": "Simulación interactiva que resuelve numéricamente el sistema de Rössler, visualiza el atractor, calcula exponentes de Lyapunov y explora bifurcaciones mediante variación paramétrica en tiempo real.",
+    "icon": "resources/logos/Sim_CS20252_400x400.png"
+  },
+  "simCoMa20252": {
+    "path": "/simulaciones-fisica/CoupledMass20252",
+    "title": "Dinamica de masas acopladas",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2025_2/CoupledMass/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2025_2/CoupledMass/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2025_2/CoupledMass/act.pdf&embedded=true",
+    "author": ["Miguel Angel Revelo Cordoba", "-", "-"],
+    "email": ["miguel.revelo1@udea.edu.co", "-", "-"],
+    "abst": "Movimiento circular y oscilatorio en masas acopladas.",
+    "icon": "resources/logos/Sim_CM20252_400x400.png"
+  },
+  "simMaWh20252": {
+    "path": "/simulaciones-fisica/MaxwellWheel20252",
+    "title": "Rueda de Maxwell",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2025_2/MaxwellWheel/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2025_2/MaxwellWheel/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2025_2/MaxwellWheel/act.pdf&embedded=true",
+    "author": ["Miguel Angel Revelo Cordoba", "-", "-"],
+    "email": ["miguel.revelo1@udea.edu.co", "-", "-"],
+    "abst": "Simulación dinámica que modela el movimiento oscilatorio de una rueda suspendida por cuerda, incluyendo rotación, energía, fricción y comportamiento realista del sistema.",
+    "icon": "resources/logos/Sim_MW20252_400x400.png"
+  },
+  "simNoOs20252": {
+    "path": "/simulaciones-fisica/NonlinearOsc20252",
+    "title": "Simulación Oscilador No Lineal",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2025_2/NonlinearOscillator/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2025_2/NonlinearOscillator/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2025_2/NonlinearOscillator/act.pdf&embedded=true",
+    "author": [
+      "Sebastian Carrillo Mejía",
+      "Andrés Felipe Riaño Quintanilla",
+      "-"
+    ],
+    "email": [
+      "sebastian.carrillo1@udea.edu.co",
+      "andres.rianoq@udea.edu.co",
+      "-"
+    ],
+    "abst": "Visualiza la dinámica de una masa conectada a resortes en un anillo, permitiendo configurar ángulos y parámetros físicos en tiempo real. Explora configuraciones extrañas y pon a prueba a RK4.",
+    "icon": "resources/logos/Sim_NO20252_400x400.png"
+  },
+  "simStGe20252": {
+    "path": "/simulaciones-fisica/SternGerlach20252",
+    "title": "Experimentos de Stern-Gerlach secuenciales",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2025_2/SternGerlach_1/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2025_2/SternGerlach_1/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2025_2/SternGerlach_1/act.pdf&embedded=true",
+    "author": ["Santiago Julio Dávila", "-", "-"],
+    "email": ["santiago.juliod@udea.edu.co", "-", "-"],
+    "abst": "Esta simulación muestra cuatro experimentos Stern-Gerlach secuenciales para ilustrar los principios básicos de la mecánica cuántica, como la cuantización, la superposición y los postulados.",
+    "icon": "resources/logos/Sim_SG120252_400x400.jpg"
+  },
+  "simStG220252": {
+    "path": "/simulaciones-fisica/SternGer2_20252",
+    "title": "Simulación experimento de Stern-Gerlach",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2025_2/SternGerlach_2/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2025_2/SternGerlach_2/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2025_2/SternGerlach_2/act.pdf&embedded=true",
+    "author": [
+      "Marlon Jhassir García Velasquez",
+      "Ricardo Felipe Moran Vasquez",
+      "Juan Sebastian Agudelo Lozada"
+    ],
+    "email": [
+      "marlon.garcia1@udea.edu.co",
+      "ricardo.moranv@udea.edu.co",
+      "sebastian.agudelo8@udea.edu.co"
+    ],
+    "abst": "Simulación interactiva del experimento de Stern-Gerlach que permite explorar la medición del espín, el colapso cuántico y probabilidades según el eje de medición.",
+    "icon": "resources/logos/Sim_SG220252_400x400.png"
+  },
+  "simThCo20252": {
+    "path": "/simulaciones-fisica/ThermalCond20252",
+    "title": "Transferencia de calor (conducción)",
+    "url": "https://raw.githubusercontent.com/fabioc9675/PhysicsSimulators/devFabian/PhysicsProjects/2025_2/ThermalConduct/sketch.js",
+    "doc": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2025_2/ThermalConduct/phy.pdf&embedded=true",
+    "act": "https://docs.google.com/gview?url=https://github.com/fabioc9675/PhysicsSimulators/raw/devFabian/PhysicsProjects/2025_2/ThermalConduct/act.pdf&embedded=true",
+    "author": [
+      "Juan Pablo Sánchez Arroyave",
+      "Víctor Palacios Mena",
+      "David García Gómez"
+    ],
+    "email": [
+      "juanpablo.sanchez@udea.edu.co",
+      "victor.palacios@udea.edu.co",
+      "david.garcia@udea.edu.co"
+    ],
+    "abst": "Este proyecto presenta una simulación computacional interactiva de transferencia de calor por conducción entre dos barras sólidas en contacto térmico.",
+    "icon": "resources/logos/Sim_TC20252_400x400.jpeg"
+  },
+  
   "sim01": {
     "path": "/simulaciones-fisica/simul_01",
     "title": "Gravitación universal",

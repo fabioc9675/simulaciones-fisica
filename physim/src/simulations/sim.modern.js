@@ -16,6 +16,24 @@ export default function SimModern() {
           <div className="Simulators-pane">
             <div className="SimButton">
               <SimDescriptor
+                buttonLabel="Simulacion SG_20252"
+                pathUrl={dataSim.simStGe20252.path}
+                imgDir={dataSim.simStGe20252.icon}
+                title={dataSim.simStGe20252.title}
+                abstract={dataSim.simStGe20252.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion NR_20251"
+                pathUrl={dataSim.simNuRe20251.path}
+                imgDir={dataSim.simNuRe20251.icon}
+                title={dataSim.simNuRe20251.title}
+                abstract={dataSim.simNuRe20251.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
                 buttonLabel="Simulacion TD_20241"
                 pathUrl={dataSim.simTiDi20241.path}
                 imgDir={dataSim.simTiDi20241.icon}
@@ -55,6 +73,24 @@ export default function SimModern() {
 
         <div className="SimFrame">
           <div className="Simulators-pane">
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion SG2_20252"
+                pathUrl={dataSim.simStG220252.path}
+                imgDir={dataSim.simStG220252.icon}
+                title={dataSim.simStG220252.title}
+                abstract={dataSim.simStG220252.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion SC_20252"
+                pathUrl={dataSim.simCoSy20252.path}
+                imgDir={dataSim.simCoSy20252.icon}
+                title={dataSim.simCoSy20252.title}
+                abstract={dataSim.simCoSy20252.abst}
+              />
+            </div>
             <div className="SimButton">
               <SimDescriptor
                 buttonLabel="Simulacion JC_20242"

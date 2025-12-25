@@ -25,6 +25,24 @@ export default function SimMechanics() {
             </div>
             <div className="SimButton">
               <SimDescriptor
+                buttonLabel="Simulacion MW_20252"
+                pathUrl={dataSim.simMaWh20252.path}
+                imgDir={dataSim.simMaWh20252.icon}
+                title={dataSim.simMaWh20252.title}
+                abstract={dataSim.simMaWh20252.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion PS_20251"
+                pathUrl={dataSim.simPeSo20251.path}
+                imgDir={dataSim.simPeSo20251.icon}
+                title={dataSim.simPeSo20251.title}
+                abstract={dataSim.simPeSo20251.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
                 buttonLabel="Simulacion ET"
                 pathUrl={dataSim.simEnTr.path}
                 imgDir={dataSim.simEnTr.icon}
@@ -62,6 +80,15 @@ export default function SimMechanics() {
                 imgDir={dataSim.simThBo20242.icon}
                 title={dataSim.simThBo20242.title}
                 abstract={dataSim.simThBo20242.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion CM_20252"
+                pathUrl={dataSim.simCoMa20252.path}
+                imgDir={dataSim.simCoMa20252.icon}
+                title={dataSim.simCoMa20252.title}
+                abstract={dataSim.simCoMa20252.abst}
               />
             </div>
             <div className="SimButton">

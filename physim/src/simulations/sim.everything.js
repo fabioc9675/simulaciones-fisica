@@ -221,6 +221,123 @@ export default function SimEverything() {
                 abstract={dataSim.simAtSp20241.abst}
               />
             </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion PR_2025_1"
+                pathUrl={dataSim.simPoRa20251.path}
+                imgDir={dataSim.simPoRa20251.icon}
+                title={dataSim.simPoRa20251.title}
+                abstract={dataSim.simPoRa20251.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion SG_20252"
+                pathUrl={dataSim.simStGe20252.path}
+                imgDir={dataSim.simStGe20252.icon}
+                title={dataSim.simStGe20252.title}
+                abstract={dataSim.simStGe20252.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion SG2_20252"
+                pathUrl={dataSim.simStG220252.path}
+                imgDir={dataSim.simStG220252.icon}
+                title={dataSim.simStG220252.title}
+                abstract={dataSim.simStG220252.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion NR_20251"
+                pathUrl={dataSim.simNuRe20251.path}
+                imgDir={dataSim.simNuRe20251.icon}
+                title={dataSim.simNuRe20251.title}
+                abstract={dataSim.simNuRe20251.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion SC_20252"
+                pathUrl={dataSim.simCoSy20252.path}
+                imgDir={dataSim.simCoSy20252.icon}
+                title={dataSim.simCoSy20252.title}
+                abstract={dataSim.simCoSy20252.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion NO_20252"
+                pathUrl={dataSim.simNoOs20252.path}
+                imgDir={dataSim.simNoOs20252.icon}
+                title={dataSim.simNoOs20252.title}
+                abstract={dataSim.simNoOs20252.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion SE_20251"
+                pathUrl={dataSim.simSiEa20251.path}
+                imgDir={dataSim.simSiEa20251.icon}
+                title={dataSim.simSiEa20251.title}
+                abstract={dataSim.simSiEa20251.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion TC_20252"
+                pathUrl={dataSim.simThCo20252.path}
+                imgDir={dataSim.simThCo20252.icon}
+                title={dataSim.simThCo20252.title}
+                abstract={dataSim.simThCo20252.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion OG_20251"
+                pathUrl={dataSim.simOpGe20251.path}
+                imgDir={dataSim.simOpGe20251.icon}
+                title={dataSim.simOpGe20251.title}
+                abstract={dataSim.simOpGe20251.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion SF_20251"
+                pathUrl={dataSim.simSoFo20251.path}
+                imgDir={dataSim.simSoFo20251.icon}
+                title={dataSim.simSoFo20251.title}
+                abstract={dataSim.simSoFo20251.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion PS_20251"
+                pathUrl={dataSim.simPeSo20251.path}
+                imgDir={dataSim.simPeSo20251.icon}
+                title={dataSim.simPeSo20251.title}
+                abstract={dataSim.simPeSo20251.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion CM_20252"
+                pathUrl={dataSim.simCoMa20252.path}
+                imgDir={dataSim.simCoMa20252.icon}
+                title={dataSim.simCoMa20252.title}
+                abstract={dataSim.simCoMa20252.abst}
+              />
+            </div>
+            <div className="SimButton">
+              <SimDescriptor
+                buttonLabel="Simulacion MW_20252"
+                pathUrl={dataSim.simMaWh20252.path}
+                imgDir={dataSim.simMaWh20252.icon}
+                title={dataSim.simMaWh20252.title}
+                abstract={dataSim.simMaWh20252.abst}
+              />
+            </div>
           </div>
         </div>
 
